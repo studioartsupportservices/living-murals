@@ -7,7 +7,7 @@ const cache = new Map();
 let manifestP = null;
 
 export function manifest() {
-  manifestP ??= fetch(new URL('manifest.json', BASE)).then(r => r.json());
+  manifestP ??= fetch(new URL('manifest.json', BASE), { cache: 'no-cache' }).then(r => r.json());
   return manifestP;
 }
 
@@ -23,7 +23,7 @@ export function loadPiece(id) {
 
 async function _load(id) {
   const dir = new URL(`${encodeURIComponent(id)}/`, BASE);
-  const meta = await fetch(new URL('piece.json', dir)).then(r => {
+  const meta = await fetch(new URL('piece.json', dir), { cache: 'no-cache' }).then(r => {
     if (!r.ok) throw new Error(`Unknown piece ${id}`);
     return r.json();
   });

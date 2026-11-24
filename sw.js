@@ -1,6 +1,6 @@
 // Offline cache: app files network-first (so updates land), CDN libraries and
 // ML models cache-first (they are pinned to exact versions).
-const CACHE = 'living-murals-v1';
+const CACHE = 'living-murals-v2';
 const CDN = ['cdn.jsdelivr.net', 'storage.googleapis.com', 'fonts.googleapis.com', 'fonts.gstatic.com'];
 self.addEventListener('install', e => self.skipWaiting());
 self.addEventListener('activate', e => e.waitUntil(clients.claim()));
