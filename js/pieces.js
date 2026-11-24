@@ -27,12 +27,16 @@ async function _load(id) {
     if (!r.ok) throw new Error(`Unknown piece ${id}`);
     return r.json();
   });
-  const svgText = await fetch(new URL(meta.master, dir)).then(r => r.text());
-  const doc = new DOMParser().parseFromString(svgText, 'image/svg+xml');
+  let doc = null;
+  if (meta.master) {
+    const svgText = await fetch(new URL(meta.master, dir)).then(r => r.text());
+    doc = new DOMParser().parseFromString(svgText, 'image/svg+xml');
+  }
   const piece = { ...meta, dir, doc, layerCache: new Map(), compositeCache: new Map() };
   piece.layerMeta = new Map((meta.layers || []).map((l, i) => [l.id, { ...l, order: i }]));
   piece.roles = {};
-  for (const g of topGroups(doc)) piece.roles[g.id] = g.getAttribute('data-role') || 'subject';
+  if (doc) for (const g of topGroups(doc)) piece.roles[g.id] = g.getAttribute('data-role') || 'subject';
+  for (const l of meta.layers || []) if (l.role) piece.roles[l.id] = l.role;
   return piece;
 }
 
@@ -81,9 +85,26 @@ function alphaBounds(canvas) {
 }
 
 // Returns { canvas, rect:[x,y,w,h] in piece px } for one layer.
+async function imageCanvas(url, maxSide = 2048) {
+  const img = new Image();
+  img.src = url;
+  await img.decode();
+  const k = Math.min(1, maxSide / Math.max(img.naturalWidth, img.naturalHeight));
+  const c = document.createElement('canvas');
+  c.width = Math.round(img.naturalWidth * k); c.height = Math.round(img.naturalHeight * k);
+  c.getContext('2d').drawImage(img, 0, 0, c.width, c.height);
+  return c;
+}
+
 export async function layerRaster(piece, layerId, density = 1.25) {
   const key = layerId + '@' + density;
   if (piece.layerCache.has(key)) return piece.layerCache.get(key);
+  const meta = piece.layerMeta.get(layerId);
+  if (meta?.src) {
+    const p = imageCanvas(new URL(meta.src, piece.dir).href).then(canvas => ({ canvas, rect: meta.rect || [0, 0, ...piece.size] }));
+    piece.layerCache.set(key, p);
+    return p;
+  }
   const p = (async () => {
     const [W, H] = piece.size;
     const probeW = 400, probeH = Math.round(400 * H / W);
@@ -111,9 +132,9 @@ export async function compositeCanvas(piece, width = 1024) {
   const p = (async () => {
     const [W, H] = piece.size;
     const h = Math.round(width * H / W);
-    if (piece.tracking) {
+    if (piece.tracking || piece.raster) {
       const img = new Image();
-      img.src = new URL(piece.tracking, piece.dir).href;
+      img.src = new URL(piece.tracking || piece.raster, piece.dir).href;
       await img.decode();
       const c = document.createElement('canvas');
       c.width = width; c.height = h;

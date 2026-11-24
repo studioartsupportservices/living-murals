@@ -1,0 +1,85 @@
+{
+  "id": "turtle",
+  "title": "Turtle",
+  "artist": "Dina Saadi",
+  "year": null,
+  "workingTitle": true,
+  "size": [
+    2048,
+    1318
+  ],
+  "raster": "base.jpg",
+  "location": {
+    "label": "Studio archive",
+    "lat": null,
+    "lng": null
+  },
+  "palette": [
+    "#e63946",
+    "#ffb703",
+    "#6a4c93",
+    "#1982c4",
+    "#2ec4b6"
+  ],
+  "layers": [
+    {
+      "id": "base",
+      "src": "under.png",
+      "depth": 0,
+      "role": "subject"
+    },
+    {
+      "id": "color",
+      "src": "color.png",
+      "rect": [
+        0,
+        146,
+        2046,
+        1106
+      ],
+      "depth": 0.02,
+      "role": "subject",
+      "anim": [
+        {
+          "type": "flow",
+          "amp": 8,
+          "speed": 0.8,
+          "scale": 14,
+          "root": [
+            1024.0,
+            659.0
+          ],
+          "length": 1
+        },
+        {
+          "type": "sway",
+          "root": [
+            630.0,
+            533.1
+          ],
+          "dir": [
+            1,
+            0.2
+          ],
+          "length": 1453.8570752484618,
+          "amp": 38.76952200662565,
+          "speed": 0.6
+        }
+      ]
+    }
+  ],
+  "rigs": {},
+  "notes": "Ribbons trail and ripple behind the swimming turtle.",
+  "subject": {
+    "box": [
+      0,
+      174,
+      2017,
+      1049
+    ],
+    "layers": [
+      "base",
+      "color"
+    ]
+  }
+}

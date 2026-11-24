@@ -1,0 +1,109 @@
+{
+  "id": "afro",
+  "title": "Afro portrait",
+  "artist": "Dina Saadi",
+  "year": null,
+  "workingTitle": true,
+  "size": [
+    1530,
+    1528
+  ],
+  "raster": "base.jpg",
+  "location": {
+    "label": "Studio archive",
+    "lat": null,
+    "lng": null
+  },
+  "palette": [
+    "#e63946",
+    "#ffb703",
+    "#6a4c93",
+    "#1982c4",
+    "#2ec4b6"
+  ],
+  "layers": [
+    {
+      "id": "base",
+      "src": "under.png",
+      "depth": 0,
+      "role": "subject"
+    },
+    {
+      "id": "color",
+      "src": "color.png",
+      "rect": [
+        110,
+        99,
+        1277,
+        1159
+      ],
+      "depth": 0.02,
+      "role": "subject",
+      "anim": [
+        {
+          "type": "flow",
+          "amp": 5,
+          "speed": 0.9,
+          "scale": 18,
+          "root": [
+            765.0,
+            764.0
+          ],
+          "length": 1
+        }
+      ]
+    }
+  ],
+  "rigs": {
+    "rasterEyes": {
+      "layer": "base",
+      "eyes": [
+        {
+          "center": [
+            481.0,
+            808.0
+          ],
+          "radius": [
+            27.0,
+            14.0
+          ],
+          "iris": 0.55,
+          "lid": "#858585"
+        },
+        {
+          "center": [
+            615.0,
+            823.0
+          ],
+          "radius": [
+            30.0,
+            15.0
+          ],
+          "iris": 0.55,
+          "lid": "#414141"
+        }
+      ],
+      "blink": {
+        "every": [
+          2.6,
+          6.5
+        ],
+        "duration": 0.16,
+        "double": 0.2
+      }
+    }
+  },
+  "notes": "Pattern hair flows; she follows you with her eyes.",
+  "subject": {
+    "box": [
+      138,
+      126,
+      1265,
+      1401
+    ],
+    "layers": [
+      "base",
+      "color"
+    ]
+  }
+}

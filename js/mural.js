@@ -51,6 +51,12 @@ uniform float uHasMask, uTime, uHue, uSat, uOpacity;
 uniform vec4 uFlow;          // ampU, ampV, speed, freq
 uniform vec3 uFlowRoot;      // x, y, length
 uniform vec2 uPulse;
+uniform int uEyeN;           // flat-image eyes: shift iris + paint lid in-shader
+uniform vec4 uEye[2];        // cx, cy, rx, ry (local)
+uniform vec3 uLid[2];
+uniform vec2 uGaze;
+uniform vec4 uRect;
+uniform float uBlink;
 varying vec2 vUv, vLocal, vMaskUv;
 vec3 hueShift(vec3 c, float a) {
   const vec3 k = vec3(0.57735);
@@ -66,7 +72,19 @@ void main() {
                   cos(vLocal.x * uFlow.w * 0.8 - t * 1.1 + sin(vLocal.y * uFlow.w * 0.5 + t * 0.4)));
     uv += n * uFlow.xy * w;
   }
+  vec3 lidCol = vec3(0.0); float lidA = 0.0;
+  for (int i = 0; i < 2; i++) {
+    if (i >= uEyeN) break;
+    vec2 d = (vLocal - uEye[i].xy) / uEye[i].zw;
+    float e = length(d);
+    if (e < 1.0) uv -= vec2(uGaze.x / uRect.z, uGaze.y / uRect.w) * smoothstep(1.0, 0.3, e);
+    if (uBlink > 0.01 && length(d * vec2(0.95, 0.9)) < 1.0) {
+      float edge = 1.0 - 2.2 * uBlink;
+      if (d.y > edge) { lidA = smoothstep(edge, edge + 0.06, d.y); lidCol = d.y - edge < 0.22 ? uLid[i] * 0.3 : uLid[i]; }
+    }
+  }
   vec4 col = texture2D(uMap, uv);
+  col.rgb = mix(col.rgb, lidCol, lidA);
   if (uHasMask > 0.5) {
     float inside = step(0.0, vMaskUv.x) * step(vMaskUv.x, 1.0) * step(0.0, vMaskUv.y) * step(vMaskUv.y, 1.0);
     col.a *= texture2D(uMask, vMaskUv).a * inside;
@@ -225,6 +243,8 @@ export class Mural {
       uRot: { value: 0 }, uRotPivot: { value: new THREE.Vector2() }, uHeadOff: { value: new THREE.Vector2() },
       uParallax: { value: this.parallax }, uMaskRect: { value: new THREE.Vector4(0, 0, 1, 1) },
       uFlow: { value: new THREE.Vector4() }, uFlowRoot: { value: new THREE.Vector3(0, 0, 1) },
+      uEyeN: { value: 0 }, uEye: { value: [new THREE.Vector4(), new THREE.Vector4()] }, uLid: { value: [new THREE.Color(), new THREE.Color()] },
+      uGaze: { value: new THREE.Vector2() }, uBlink: { value: 0 },
       uHue: { value: item.hue || 0 }, uSat: { value: item.sat ?? 1 }, uOpacity: { value: 1 }, uPulse: { value: new THREE.Vector2() },
     };
     const mat = new THREE.ShaderMaterial({ uniforms: u, vertexShader: VERT, fragmentShader: FRAG, transparent: true,
@@ -286,9 +306,25 @@ export class Mural {
       for (const [L] of layers) L.u.uRotPivot.value.set(px, py);
       rig.head = { layers, maxTurn: r.head.maxTurn * Math.sign(map.kx), shift: r.head.shift * k };
     }
+    const re = r.rasterEyes;
+    if (re && byId.get(re.layer)) {
+      const L = byId.get(re.layer);
+      const list = re.eyes.slice(0, 2);
+      L.u.uEyeN.value = list.length;
+      rig.raster = { L, centers: [], range: 0 };
+      list.forEach((e, i) => {
+        const [cx, cy] = Mural.P(map, ...e.center);
+        L.u.uEye.value[i].set(cx, cy, e.radius[0] * k, e.radius[1] * k);
+        { const n = parseInt(e.lid.slice(1), 16); L.u.uLid.value[i].setRGB((n >> 16 & 255) / 255, (n >> 8 & 255) / 255, (n & 255) / 255); }
+        rig.raster.centers.push(new THREE.Vector2(cx, cy));
+        rig.raster.range = Math.max(rig.raster.range, e.radius[0] * k * (e.iris ?? 0.5) * 0.75);
+        rig.raster.rangeY = e.radius[1] * k * (e.iris ?? 0.5) * 0.5;
+      });
+      if (re.blink) rig.blink = re.blink;
+    }
     rig.gaze = new THREE.Vector2();
     rig.headGaze = new THREE.Vector2();
-    if (rig.eyes.length || rig.head) this.rigs.push(rig);
+    if (rig.eyes.length || rig.head || rig.raster) this.rigs.push(rig);
   }
 
   // Look target in local 3D (x, y, z toward viewer). null = idle wander.
@@ -313,7 +349,8 @@ export class Mural {
   _updateRig(rig, dt) {
     const I = this.intensity;
     // eye/head centre
-    const c = rig.eyes.length ? rig.eyes.reduce((a, e) => a.add(e.center), new THREE.Vector2()).multiplyScalar(1 / rig.eyes.length) : new THREE.Vector2();
+    const cs = rig.eyes.length ? rig.eyes.map(e => e.center) : (rig.raster?.centers || []);
+    const c = cs.length ? cs.reduce((a, v) => a.add(v), new THREE.Vector2()).multiplyScalar(1 / cs.length) : new THREE.Vector2();
     // saccades: small random fixation shifts every 0.4-2.5 s
     rig.saccT -= dt;
     if (rig.saccT <= 0) {
@@ -361,6 +398,10 @@ export class Mural {
       } else lid = Math.max(0.0001, Math.sin(p * Math.PI) ** 0.7);
     }
     for (const e of rig.eyes) if (e.lid) { e.lid.u.uScl.value.y = lid; e.lid.mesh.visible = lid > 0.001; }
+    if (rig.raster) {
+      rig.raster.L.u.uGaze.value.set(g.x * rig.raster.range * Math.min(1, I), g.y * rig.raster.rangeY * Math.min(1, I));
+      rig.raster.L.u.uBlink.value = lid > 0.001 ? lid : 0;
+    }
   }
 
   blinkNow() { for (const r of this.rigs) if (r.blinkT < 0) r.blinkT = 0; }

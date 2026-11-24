@@ -1,0 +1,73 @@
+{
+  "id": "profile",
+  "title": "Profile",
+  "artist": "Dina Saadi",
+  "year": null,
+  "workingTitle": true,
+  "size": [
+    1568,
+    778
+  ],
+  "raster": "base.jpg",
+  "location": {
+    "label": "Studio archive",
+    "lat": null,
+    "lng": null
+  },
+  "palette": [
+    "#e63946",
+    "#ffb703",
+    "#6a4c93",
+    "#1982c4",
+    "#2ec4b6"
+  ],
+  "layers": [
+    {
+      "id": "base",
+      "src": "under.jpg",
+      "depth": 0,
+      "role": "background"
+    },
+    {
+      "id": "color",
+      "src": "color.png",
+      "rect": [
+        0,
+        0,
+        1552,
+        778
+      ],
+      "depth": 0.02,
+      "role": "foreground",
+      "anim": [
+        {
+          "type": "flow",
+          "amp": 6,
+          "speed": 1.0,
+          "scale": 16,
+          "root": [
+            784.0,
+            389.0
+          ],
+          "length": 1
+        },
+        {
+          "type": "sway",
+          "root": [
+            1300.0,
+            300.0
+          ],
+          "dir": [
+            -1,
+            0.1
+          ],
+          "length": 1300.0,
+          "amp": 28.0,
+          "speed": 0.5
+        }
+      ]
+    }
+  ],
+  "rigs": {},
+  "notes": "Hair streams out behind her like a banner in the wind."
+}

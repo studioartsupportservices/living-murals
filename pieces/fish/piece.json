@@ -1,0 +1,85 @@
+{
+  "id": "fish",
+  "title": "Fish",
+  "artist": "Dina Saadi",
+  "year": null,
+  "workingTitle": true,
+  "size": [
+    2048,
+    545
+  ],
+  "raster": "base.jpg",
+  "location": {
+    "label": "Studio archive",
+    "lat": null,
+    "lng": null
+  },
+  "palette": [
+    "#e63946",
+    "#ffb703",
+    "#6a4c93",
+    "#1982c4",
+    "#2ec4b6"
+  ],
+  "layers": [
+    {
+      "id": "base",
+      "src": "under.png",
+      "depth": 0,
+      "role": "subject"
+    },
+    {
+      "id": "color",
+      "src": "color.png",
+      "rect": [
+        0,
+        77,
+        2011,
+        423
+      ],
+      "depth": 0.02,
+      "role": "subject",
+      "anim": [
+        {
+          "type": "flow",
+          "amp": 7,
+          "speed": 0.9,
+          "scale": 16,
+          "root": [
+            1024.0,
+            272.5
+          ],
+          "length": 1
+        },
+        {
+          "type": "sway",
+          "root": [
+            1975.7,
+            298.2
+          ],
+          "dir": [
+            -1,
+            0
+          ],
+          "length": 1863.8514743356388,
+          "amp": 33.5493265380415,
+          "speed": 0.55
+        }
+      ]
+    }
+  ],
+  "rigs": {},
+  "notes": "The patterned body swims in a slow S-curve behind the head.",
+  "subject": {
+    "box": [
+      9,
+      97,
+      2025,
+      374
+    ],
+    "layers": [
+      "base",
+      "color"
+    ]
+  }
+}

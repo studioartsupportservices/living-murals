@@ -1,0 +1,59 @@
+{
+  "id": "patterns",
+  "title": "Pattern panel",
+  "artist": "Dina Saadi",
+  "year": null,
+  "workingTitle": true,
+  "size": [
+    2048,
+    838
+  ],
+  "raster": "base.jpg",
+  "location": {
+    "label": "Studio archive",
+    "lat": null,
+    "lng": null
+  },
+  "palette": [
+    "#e63946",
+    "#ffb703",
+    "#6a4c93",
+    "#1982c4",
+    "#2ec4b6"
+  ],
+  "layers": [
+    {
+      "id": "base",
+      "src": "under.jpg",
+      "depth": 0,
+      "role": "background"
+    },
+    {
+      "id": "color",
+      "src": "color.png",
+      "rect": [
+        0,
+        0,
+        2048,
+        838
+      ],
+      "depth": 0.02,
+      "role": "foreground",
+      "anim": [
+        {
+          "type": "flow",
+          "amp": 7,
+          "speed": 0.8,
+          "scale": 14,
+          "root": [
+            1024.0,
+            419.0
+          ],
+          "length": 1
+        }
+      ]
+    }
+  ],
+  "rigs": {},
+  "notes": "Shapes ripple and drift."
+}

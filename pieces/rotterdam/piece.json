@@ -1,0 +1,59 @@
+{
+  "id": "rotterdam",
+  "title": "POW! WOW! Rotterdam",
+  "artist": "Dina Saadi",
+  "year": null,
+  "workingTitle": true,
+  "size": [
+    960,
+    180
+  ],
+  "raster": "base.jpg",
+  "location": {
+    "label": "Rotterdam, NL",
+    "lat": null,
+    "lng": null
+  },
+  "palette": [
+    "#e63946",
+    "#ffb703",
+    "#6a4c93",
+    "#1982c4",
+    "#2ec4b6"
+  ],
+  "layers": [
+    {
+      "id": "base",
+      "src": "under.jpg",
+      "depth": 0,
+      "role": "background"
+    },
+    {
+      "id": "color",
+      "src": "color.png",
+      "rect": [
+        0,
+        0,
+        960,
+        180
+      ],
+      "depth": 0.02,
+      "role": "foreground",
+      "anim": [
+        {
+          "type": "flow",
+          "amp": 4,
+          "speed": 0.8,
+          "scale": 20,
+          "root": [
+            480.0,
+            90.0
+          ],
+          "length": 1
+        }
+      ]
+    }
+  ],
+  "rigs": {},
+  "notes": "Photo of the painted wall, VDV Freight Station. Point at the actual mural (or this photo)."
+}

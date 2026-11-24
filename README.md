@@ -5,9 +5,10 @@ Phone app that brings Dina Saadi's wall murals to life in AR. This is the
 QR code, installs to the home screen, and shares its piece format and
 animation presets with the native app that comes next.
 
-The three murals in `pieces/` (Mirador, Zorro de medianoche, Garza) are
-**placeholder art** built in the studio's file format so everything can be
-tested before Dina's files arrive.
+`pieces/` holds eight of Dina's works imported from flat images (digital
+artworks, screenshots and a photo of the POW! WOW! Rotterdam wall). Titles are
+working titles taken from the file names. The vector format below is ready for
+when the layered source files are available.
 
 ## What works now
 
@@ -64,6 +65,16 @@ each eye's white / iris / lid). Eyelids are drawn *closed* and hidden with
 All coordinates are in the SVG's pixel space. **This is where Dina authors
 animation directly**: new murals ship with their presets in piece.json, and the
 app's controls only adjust them.
+
+### Importing flat images (photos, PNG/JPG exports)
+
+`tools/import_raster.py "<folder>"` turns each configured image into a piece:
+`base.jpg` (as painted; tracking target), `under.*` (static layer, white ground
+made transparent so cut-outs sit directly on any wall), `color.png` (the
+saturated pattern areas, which flow and sway). Eyes on flat portraits are
+animated in the shader from an ellipse per eye (`rigs.rasterEyes`): gaze shift
+plus a painted blink lid. Per-piece settings (eye positions, which area is the
+still figure, sway root) live in the `PIECES` table at the top of the script.
 
 ### Adding a mural
 

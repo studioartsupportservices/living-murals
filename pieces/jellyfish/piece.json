@@ -1,0 +1,85 @@
+{
+  "id": "jellyfish",
+  "title": "Jellyfish",
+  "artist": "Dina Saadi",
+  "year": null,
+  "workingTitle": true,
+  "size": [
+    2048,
+    653
+  ],
+  "raster": "base.jpg",
+  "location": {
+    "label": "Studio archive",
+    "lat": null,
+    "lng": null
+  },
+  "palette": [
+    "#e63946",
+    "#ffb703",
+    "#6a4c93",
+    "#1982c4",
+    "#2ec4b6"
+  ],
+  "layers": [
+    {
+      "id": "base",
+      "src": "under.png",
+      "depth": 0,
+      "role": "subject"
+    },
+    {
+      "id": "color",
+      "src": "color.png",
+      "rect": [
+        0,
+        38,
+        2048,
+        614
+      ],
+      "depth": 0.02,
+      "role": "subject",
+      "anim": [
+        {
+          "type": "flow",
+          "amp": 6,
+          "speed": 1.1,
+          "scale": 18,
+          "root": [
+            1024.0,
+            326.5
+          ],
+          "length": 1
+        },
+        {
+          "type": "sway",
+          "root": [
+            121.2,
+            168.4
+          ],
+          "dir": [
+            1,
+            0.05
+          ],
+          "length": 1885.6954949029926,
+          "amp": 40.40776060506413,
+          "speed": 0.7
+        }
+      ]
+    }
+  ],
+  "rigs": {},
+  "notes": "Tentacles undulate from the bell.",
+  "subject": {
+    "box": [
+      20,
+      66,
+      2021,
+      557
+    ],
+    "layers": [
+      "base",
+      "color"
+    ]
+  }
+}

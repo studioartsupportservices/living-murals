@@ -1,0 +1,109 @@
+{
+  "id": "embrace",
+  "title": "Crossed arms",
+  "artist": "Dina Saadi",
+  "year": null,
+  "workingTitle": true,
+  "size": [
+    2048,
+    1254
+  ],
+  "raster": "base.jpg",
+  "location": {
+    "label": "Studio archive",
+    "lat": null,
+    "lng": null
+  },
+  "palette": [
+    "#e63946",
+    "#ffb703",
+    "#6a4c93",
+    "#1982c4",
+    "#2ec4b6"
+  ],
+  "layers": [
+    {
+      "id": "base",
+      "src": "under.png",
+      "depth": 0,
+      "role": "subject"
+    },
+    {
+      "id": "color",
+      "src": "color.png",
+      "rect": [
+        46,
+        0,
+        1877,
+        1254
+      ],
+      "depth": 0.02,
+      "role": "subject",
+      "anim": [
+        {
+          "type": "flow",
+          "amp": 6,
+          "speed": 0.8,
+          "scale": 16,
+          "root": [
+            1024.0,
+            627.0
+          ],
+          "length": 1
+        }
+      ]
+    }
+  ],
+  "rigs": {
+    "rasterEyes": {
+      "layer": "base",
+      "eyes": [
+        {
+          "center": [
+            875.7,
+            484.0
+          ],
+          "radius": [
+            37.3,
+            17.8
+          ],
+          "iris": 0.5,
+          "lid": "#0b0b0f"
+        },
+        {
+          "center": [
+            1081.7,
+            492.9
+          ],
+          "radius": [
+            37.3,
+            17.8
+          ],
+          "iris": 0.5,
+          "lid": "#79787c"
+        }
+      ],
+      "blink": {
+        "every": [
+          2.6,
+          6.5
+        ],
+        "duration": 0.16,
+        "double": 0.2
+      }
+    }
+  },
+  "notes": "Botanical pattern breathes around the figure; her gaze follows passers-by.",
+  "subject": {
+    "box": [
+      73,
+      0,
+      1827,
+      1253
+    ],
+    "layers": [
+      "base",
+      "color"
+    ]
+  }
+}
