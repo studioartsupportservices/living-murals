@@ -1,0 +1,245 @@
+{
+  "id": "mirador",
+  "size": [
+    1600,
+    1000
+  ],
+  "master": "art.svg",
+  "title": "Mirador",
+  "artist": "Dina Saadi Studio",
+  "placeholder": true,
+  "year": 2026,
+  "location": {
+    "label": "Test wall",
+    "lat": null,
+    "lng": null
+  },
+  "palette": [
+    "#0f4c5c",
+    "#fb8b24",
+    "#e36414",
+    "#5f0f40",
+    "#9a031e"
+  ],
+  "layers": [
+    {
+      "id": "bg",
+      "depth": 0
+    },
+    {
+      "id": "hair-back",
+      "depth": 0.025,
+      "anim": [
+        {
+          "type": "sway",
+          "root": [
+            800,
+            200
+          ],
+          "dir": [
+            0,
+            1
+          ],
+          "length": 560,
+          "amp": 16,
+          "speed": 0.9
+        },
+        {
+          "type": "flow",
+          "amp": 5,
+          "speed": 1.3,
+          "scale": 26,
+          "root": [
+            800,
+            200
+          ],
+          "length": 560
+        }
+      ]
+    },
+    {
+      "id": "body",
+      "depth": 0.03,
+      "anim": [
+        {
+          "type": "breathe",
+          "amp": 0.008,
+          "speed": 0.5,
+          "pivot": [
+            800,
+            1000
+          ]
+        }
+      ]
+    },
+    {
+      "id": "face",
+      "depth": 0.04
+    },
+    {
+      "id": "eyeL-white",
+      "depth": 0.041
+    },
+    {
+      "id": "eyeL-iris",
+      "depth": 0.042
+    },
+    {
+      "id": "eyeL-lid",
+      "depth": 0.043
+    },
+    {
+      "id": "eyeR-white",
+      "depth": 0.041
+    },
+    {
+      "id": "eyeR-iris",
+      "depth": 0.042
+    },
+    {
+      "id": "eyeR-lid",
+      "depth": 0.043
+    },
+    {
+      "id": "eye-lines",
+      "depth": 0.044
+    },
+    {
+      "id": "hair-front",
+      "depth": 0.05,
+      "anim": [
+        {
+          "type": "flow",
+          "amp": 3,
+          "speed": 1.6,
+          "scale": 30,
+          "root": [
+            800,
+            240
+          ],
+          "length": 120
+        }
+      ]
+    },
+    {
+      "id": "leaves",
+      "depth": 0.09,
+      "anim": [
+        {
+          "type": "sway",
+          "root": [
+            800,
+            1000
+          ],
+          "dir": [
+            0,
+            -1
+          ],
+          "length": 420,
+          "amp": 14,
+          "speed": 0.7,
+          "radial": true
+        }
+      ]
+    },
+    {
+      "id": "petals",
+      "depth": 0.12,
+      "anim": [
+        {
+          "type": "drift",
+          "amp": 14,
+          "speed": 0.35
+        }
+      ]
+    }
+  ],
+  "rigs": {
+    "eyes": [
+      {
+        "white": "eyeL-white",
+        "iris": "eyeL-iris",
+        "lid": "eyeL-lid",
+        "center": [
+          738,
+          452
+        ],
+        "range": [
+          25.6,
+          12.2
+        ],
+        "lidPivot": [
+          738,
+          427
+        ]
+      },
+      {
+        "white": "eyeR-white",
+        "iris": "eyeR-iris",
+        "lid": "eyeR-lid",
+        "center": [
+          862,
+          452
+        ],
+        "range": [
+          25.6,
+          12.2
+        ],
+        "lidPivot": [
+          862,
+          427
+        ]
+      }
+    ],
+    "blink": {
+      "every": [
+        2.4,
+        6.0
+      ],
+      "duration": 0.17,
+      "double": 0.2
+    },
+    "head": {
+      "pivot": [
+        800,
+        720
+      ],
+      "maxTurn": 0.06,
+      "shift": 16,
+      "layers": {
+        "hair-back": 0.35,
+        "face": 0.6,
+        "eyeL-white": 1,
+        "eyeL-iris": 1,
+        "eyeL-lid": 1,
+        "eyeR-white": 1,
+        "eyeR-iris": 1,
+        "eyeR-lid": 1,
+        "eye-lines": 1,
+        "hair-front": 0.85
+      }
+    }
+  },
+  "subject": {
+    "box": [
+      370,
+      150,
+      900,
+      850
+    ],
+    "layers": [
+      "hair-back",
+      "body",
+      "face",
+      "eyeL-white",
+      "eyeL-iris",
+      "eyeL-lid",
+      "eyeR-white",
+      "eyeR-iris",
+      "eyeR-lid",
+      "eye-lines",
+      "hair-front"
+    ]
+  },
+  "notes": "Portrait. The figure turns her eyes and head toward whoever stands in front of her."
+}

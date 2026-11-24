@@ -1,0 +1,1538 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000">
+<g id="bg" data-role="background" >
+<polygon points="0,0 50,0 0,50" fill="#176d80" />
+<polygon points="50,0 50,50 0,50" fill="#0d4655" />
+<polygon points="50,0 100,0 100,50" fill="#176d80" />
+<polygon points="50,0 100,50 50,50" fill="#176d80" />
+<polygon points="100,0 150,0 100,50" fill="#0d4655" />
+<polygon points="150,0 150,50 100,50" fill="#0d4655" />
+<polygon points="150,0 200,0 200,50" fill="#12596b" />
+<polygon points="150,0 200,50 150,50" fill="#12596b" />
+<polygon points="200,0 250,0 200,50" fill="#0d4655" />
+<polygon points="250,0 250,50 200,50" fill="#176d80" />
+<polygon points="250,0 300,0 300,50" fill="#1f7a8c" />
+<polygon points="250,0 300,50 250,50" fill="#0d4655" />
+<polygon points="300,0 350,0 300,50" fill="#12596b" />
+<polygon points="350,0 350,50 300,50" fill="#0f4c5c" />
+<polygon points="350,0 400,0 400,50" fill="#176d80" />
+<polygon points="350,0 400,50 350,50" fill="#0b3d4a" />
+<polygon points="400,0 450,0 400,50" fill="#12596b" />
+<polygon points="450,0 450,50 400,50" fill="#0f4c5c" />
+<polygon points="450,0 500,0 500,50" fill="#0d4655" />
+<polygon points="450,0 500,50 450,50" fill="#1f7a8c" />
+<polygon points="500,0 550,0 500,50" fill="#1f7a8c" />
+<polygon points="550,0 550,50 500,50" fill="#0f4c5c" />
+<polygon points="550,0 600,0 600,50" fill="#0d4655" />
+<polygon points="550,0 600,50 550,50" fill="#176d80" />
+<polygon points="600,0 650,0 600,50" fill="#176d80" />
+<polygon points="650,0 650,50 600,50" fill="#1f7a8c" />
+<polygon points="650,0 700,0 700,50" fill="#1f7a8c" />
+<polygon points="650,0 700,50 650,50" fill="#0d4655" />
+<polygon points="700,0 750,0 700,50" fill="#1f7a8c" />
+<polygon points="750,0 750,50 700,50" fill="#12596b" />
+<polygon points="750,0 800,0 800,50" fill="#0d4655" />
+<polygon points="750,0 800,50 750,50" fill="#0f4c5c" />
+<polygon points="800,0 850,0 800,50" fill="#0d4655" />
+<polygon points="850,0 850,50 800,50" fill="#0f4c5c" />
+<polygon points="850,0 900,0 900,50" fill="#0f4c5c" />
+<polygon points="850,0 900,50 850,50" fill="#0f4c5c" />
+<polygon points="900,0 950,0 900,50" fill="#12596b" />
+<polygon points="950,0 950,50 900,50" fill="#12596b" />
+<polygon points="950,0 1000,0 1000,50" fill="#0d4655" />
+<polygon points="950,0 1000,50 950,50" fill="#0f4c5c" />
+<polygon points="1000,0 1050,0 1000,50" fill="#176d80" />
+<polygon points="1050,0 1050,50 1000,50" fill="#0b3d4a" />
+<polygon points="1050,0 1100,0 1100,50" fill="#176d80" />
+<polygon points="1050,0 1100,50 1050,50" fill="#0d4655" />
+<polygon points="1100,0 1150,0 1100,50" fill="#12596b" />
+<polygon points="1150,0 1150,50 1100,50" fill="#0d4655" />
+<polygon points="1150,0 1200,0 1200,50" fill="#12596b" />
+<polygon points="1150,0 1200,50 1150,50" fill="#1f7a8c" />
+<polygon points="1200,0 1250,0 1200,50" fill="#0b3d4a" />
+<polygon points="1250,0 1250,50 1200,50" fill="#176d80" />
+<polygon points="1250,0 1300,0 1300,50" fill="#0f4c5c" />
+<polygon points="1250,0 1300,50 1250,50" fill="#1f7a8c" />
+<polygon points="1300,0 1350,0 1300,50" fill="#0f4c5c" />
+<polygon points="1350,0 1350,50 1300,50" fill="#176d80" />
+<polygon points="1350,0 1400,0 1400,50" fill="#1f7a8c" />
+<polygon points="1350,0 1400,50 1350,50" fill="#0b3d4a" />
+<polygon points="1400,0 1450,0 1400,50" fill="#176d80" />
+<polygon points="1450,0 1450,50 1400,50" fill="#0d4655" />
+<polygon points="1450,0 1500,0 1500,50" fill="#0f4c5c" />
+<polygon points="1450,0 1500,50 1450,50" fill="#1f7a8c" />
+<polygon points="1500,0 1550,0 1500,50" fill="#0b3d4a" />
+<polygon points="1550,0 1550,50 1500,50" fill="#0b3d4a" />
+<polygon points="1550,0 1600,0 1600,50" fill="#12596b" />
+<polygon points="1550,0 1600,50 1550,50" fill="#0d4655" />
+<polygon points="0,50 50,50 50,100" fill="#0b3d4a" />
+<polygon points="0,50 50,100 0,100" fill="#0f4c5c" />
+<polygon points="50,50 100,50 50,100" fill="#0f4c5c" />
+<polygon points="100,50 100,100 50,100" fill="#0d4655" />
+<polygon points="100,50 150,50 150,100" fill="#0f4c5c" />
+<polygon points="100,50 150,100 100,100" fill="#176d80" />
+<polygon points="150,50 200,50 150,100" fill="#0f4c5c" />
+<polygon points="200,50 200,100 150,100" fill="#0b3d4a" />
+<polygon points="200,50 250,50 250,100" fill="#176d80" />
+<polygon points="200,50 250,100 200,100" fill="#0f4c5c" />
+<polygon points="250,50 300,50 250,100" fill="#0f4c5c" />
+<polygon points="300,50 300,100 250,100" fill="#1f7a8c" />
+<polygon points="300,50 350,50 350,100" fill="#0f4c5c" />
+<polygon points="300,50 350,100 300,100" fill="#12596b" />
+<polygon points="350,50 400,50 350,100" fill="#12596b" />
+<polygon points="400,50 400,100 350,100" fill="#0f4c5c" />
+<polygon points="400,50 450,50 450,100" fill="#176d80" />
+<polygon points="400,50 450,100 400,100" fill="#176d80" />
+<polygon points="450,50 500,50 450,100" fill="#1f7a8c" />
+<polygon points="500,50 500,100 450,100" fill="#176d80" />
+<polygon points="500,50 550,50 550,100" fill="#176d80" />
+<polygon points="500,50 550,100 500,100" fill="#0f4c5c" />
+<polygon points="550,50 600,50 550,100" fill="#0d4655" />
+<polygon points="600,50 600,100 550,100" fill="#1f7a8c" />
+<polygon points="600,50 650,50 650,100" fill="#12596b" />
+<polygon points="600,50 650,100 600,100" fill="#1f7a8c" />
+<polygon points="650,50 700,50 650,100" fill="#0b3d4a" />
+<polygon points="700,50 700,100 650,100" fill="#0b3d4a" />
+<polygon points="700,50 750,50 750,100" fill="#0f4c5c" />
+<polygon points="700,50 750,100 700,100" fill="#0b3d4a" />
+<polygon points="750,50 800,50 750,100" fill="#0b3d4a" />
+<polygon points="800,50 800,100 750,100" fill="#0f4c5c" />
+<polygon points="800,50 850,50 850,100" fill="#176d80" />
+<polygon points="800,50 850,100 800,100" fill="#0f4c5c" />
+<polygon points="850,50 900,50 850,100" fill="#12596b" />
+<polygon points="900,50 900,100 850,100" fill="#12596b" />
+<polygon points="900,50 950,50 950,100" fill="#1f7a8c" />
+<polygon points="900,50 950,100 900,100" fill="#0f4c5c" />
+<polygon points="950,50 1000,50 950,100" fill="#0f4c5c" />
+<polygon points="1000,50 1000,100 950,100" fill="#0f4c5c" />
+<polygon points="1000,50 1050,50 1050,100" fill="#176d80" />
+<polygon points="1000,50 1050,100 1000,100" fill="#176d80" />
+<polygon points="1050,50 1100,50 1050,100" fill="#12596b" />
+<polygon points="1100,50 1100,100 1050,100" fill="#1f7a8c" />
+<polygon points="1100,50 1150,50 1150,100" fill="#0d4655" />
+<polygon points="1100,50 1150,100 1100,100" fill="#12596b" />
+<polygon points="1150,50 1200,50 1150,100" fill="#176d80" />
+<polygon points="1200,50 1200,100 1150,100" fill="#0d4655" />
+<polygon points="1200,50 1250,50 1250,100" fill="#12596b" />
+<polygon points="1200,50 1250,100 1200,100" fill="#1f7a8c" />
+<polygon points="1250,50 1300,50 1250,100" fill="#12596b" />
+<polygon points="1300,50 1300,100 1250,100" fill="#176d80" />
+<polygon points="1300,50 1350,50 1350,100" fill="#1f7a8c" />
+<polygon points="1300,50 1350,100 1300,100" fill="#176d80" />
+<polygon points="1350,50 1400,50 1350,100" fill="#0f4c5c" />
+<polygon points="1400,50 1400,100 1350,100" fill="#176d80" />
+<polygon points="1400,50 1450,50 1450,100" fill="#176d80" />
+<polygon points="1400,50 1450,100 1400,100" fill="#12596b" />
+<polygon points="1450,50 1500,50 1450,100" fill="#0f4c5c" />
+<polygon points="1500,50 1500,100 1450,100" fill="#0b3d4a" />
+<polygon points="1500,50 1550,50 1550,100" fill="#0d4655" />
+<polygon points="1500,50 1550,100 1500,100" fill="#0b3d4a" />
+<polygon points="1550,50 1600,50 1550,100" fill="#0f4c5c" />
+<polygon points="1600,50 1600,100 1550,100" fill="#12596b" />
+<polygon points="0,100 50,100 0,150" fill="#12596b" />
+<polygon points="50,100 50,150 0,150" fill="#176d80" />
+<polygon points="50,100 100,100 100,150" fill="#0d4655" />
+<polygon points="50,100 100,150 50,150" fill="#1f7a8c" />
+<polygon points="100,100 150,100 100,150" fill="#0d4655" />
+<polygon points="150,100 150,150 100,150" fill="#0f4c5c" />
+<polygon points="150,100 200,100 200,150" fill="#0f4c5c" />
+<polygon points="150,100 200,150 150,150" fill="#12596b" />
+<polygon points="200,100 250,100 200,150" fill="#12596b" />
+<polygon points="250,100 250,150 200,150" fill="#176d80" />
+<polygon points="250,100 300,100 300,150" fill="#0b3d4a" />
+<polygon points="250,100 300,150 250,150" fill="#0f4c5c" />
+<polygon points="300,100 350,100 300,150" fill="#0d4655" />
+<polygon points="350,100 350,150 300,150" fill="#0b3d4a" />
+<polygon points="350,100 400,100 400,150" fill="#0b3d4a" />
+<polygon points="350,100 400,150 350,150" fill="#176d80" />
+<polygon points="400,100 450,100 400,150" fill="#0f4c5c" />
+<polygon points="450,100 450,150 400,150" fill="#0f4c5c" />
+<polygon points="450,100 500,100 500,150" fill="#0f4c5c" />
+<polygon points="450,100 500,150 450,150" fill="#12596b" />
+<polygon points="500,100 550,100 500,150" fill="#0d4655" />
+<polygon points="550,100 550,150 500,150" fill="#1f7a8c" />
+<polygon points="550,100 600,100 600,150" fill="#12596b" />
+<polygon points="550,100 600,150 550,150" fill="#0f4c5c" />
+<polygon points="600,100 650,100 600,150" fill="#0d4655" />
+<polygon points="650,100 650,150 600,150" fill="#0b3d4a" />
+<polygon points="650,100 700,100 700,150" fill="#0b3d4a" />
+<polygon points="650,100 700,150 650,150" fill="#0d4655" />
+<polygon points="700,100 750,100 700,150" fill="#176d80" />
+<polygon points="750,100 750,150 700,150" fill="#12596b" />
+<polygon points="750,100 800,100 800,150" fill="#0d4655" />
+<polygon points="750,100 800,150 750,150" fill="#176d80" />
+<polygon points="800,100 850,100 800,150" fill="#0d4655" />
+<polygon points="850,100 850,150 800,150" fill="#12596b" />
+<polygon points="850,100 900,100 900,150" fill="#176d80" />
+<polygon points="850,100 900,150 850,150" fill="#12596b" />
+<polygon points="900,100 950,100 900,150" fill="#1f7a8c" />
+<polygon points="950,100 950,150 900,150" fill="#12596b" />
+<polygon points="950,100 1000,100 1000,150" fill="#0b3d4a" />
+<polygon points="950,100 1000,150 950,150" fill="#12596b" />
+<polygon points="1000,100 1050,100 1000,150" fill="#0d4655" />
+<polygon points="1050,100 1050,150 1000,150" fill="#12596b" />
+<polygon points="1050,100 1100,100 1100,150" fill="#1f7a8c" />
+<polygon points="1050,100 1100,150 1050,150" fill="#12596b" />
+<polygon points="1100,100 1150,100 1100,150" fill="#12596b" />
+<polygon points="1150,100 1150,150 1100,150" fill="#1f7a8c" />
+<polygon points="1150,100 1200,100 1200,150" fill="#1f7a8c" />
+<polygon points="1150,100 1200,150 1150,150" fill="#0d4655" />
+<polygon points="1200,100 1250,100 1200,150" fill="#12596b" />
+<polygon points="1250,100 1250,150 1200,150" fill="#1f7a8c" />
+<polygon points="1250,100 1300,100 1300,150" fill="#176d80" />
+<polygon points="1250,100 1300,150 1250,150" fill="#176d80" />
+<polygon points="1300,100 1350,100 1300,150" fill="#0d4655" />
+<polygon points="1350,100 1350,150 1300,150" fill="#0f4c5c" />
+<polygon points="1350,100 1400,100 1400,150" fill="#176d80" />
+<polygon points="1350,100 1400,150 1350,150" fill="#0f4c5c" />
+<polygon points="1400,100 1450,100 1400,150" fill="#0f4c5c" />
+<polygon points="1450,100 1450,150 1400,150" fill="#0f4c5c" />
+<polygon points="1450,100 1500,100 1500,150" fill="#0f4c5c" />
+<polygon points="1450,100 1500,150 1450,150" fill="#0d4655" />
+<polygon points="1500,100 1550,100 1500,150" fill="#0b3d4a" />
+<polygon points="1550,100 1550,150 1500,150" fill="#12596b" />
+<polygon points="1550,100 1600,100 1600,150" fill="#1f7a8c" />
+<polygon points="1550,100 1600,150 1550,150" fill="#1f7a8c" />
+<polygon points="0,150 50,150 50,200" fill="#176d80" />
+<polygon points="0,150 50,200 0,200" fill="#0b3d4a" />
+<polygon points="50,150 100,150 50,200" fill="#176d80" />
+<polygon points="100,150 100,200 50,200" fill="#0d4655" />
+<polygon points="100,150 150,150 150,200" fill="#176d80" />
+<polygon points="100,150 150,200 100,200" fill="#0b3d4a" />
+<polygon points="150,150 200,150 150,200" fill="#0d4655" />
+<polygon points="200,150 200,200 150,200" fill="#12596b" />
+<polygon points="200,150 250,150 250,200" fill="#1f7a8c" />
+<polygon points="200,150 250,200 200,200" fill="#0f4c5c" />
+<polygon points="250,150 300,150 250,200" fill="#12596b" />
+<polygon points="300,150 300,200 250,200" fill="#12596b" />
+<polygon points="300,150 350,150 350,200" fill="#176d80" />
+<polygon points="300,150 350,200 300,200" fill="#0d4655" />
+<polygon points="350,150 400,150 350,200" fill="#1f7a8c" />
+<polygon points="400,150 400,200 350,200" fill="#0d4655" />
+<polygon points="400,150 450,150 450,200" fill="#0d4655" />
+<polygon points="400,150 450,200 400,200" fill="#0f4c5c" />
+<polygon points="450,150 500,150 450,200" fill="#0b3d4a" />
+<polygon points="500,150 500,200 450,200" fill="#12596b" />
+<polygon points="500,150 550,150 550,200" fill="#12596b" />
+<polygon points="500,150 550,200 500,200" fill="#1f7a8c" />
+<polygon points="550,150 600,150 550,200" fill="#0f4c5c" />
+<polygon points="600,150 600,200 550,200" fill="#0f4c5c" />
+<polygon points="600,150 650,150 650,200" fill="#0b3d4a" />
+<polygon points="600,150 650,200 600,200" fill="#176d80" />
+<polygon points="650,150 700,150 650,200" fill="#176d80" />
+<polygon points="700,150 700,200 650,200" fill="#12596b" />
+<polygon points="700,150 750,150 750,200" fill="#0f4c5c" />
+<polygon points="700,150 750,200 700,200" fill="#0f4c5c" />
+<polygon points="750,150 800,150 750,200" fill="#12596b" />
+<polygon points="800,150 800,200 750,200" fill="#0b3d4a" />
+<polygon points="800,150 850,150 850,200" fill="#0b3d4a" />
+<polygon points="800,150 850,200 800,200" fill="#0d4655" />
+<polygon points="850,150 900,150 850,200" fill="#0d4655" />
+<polygon points="900,150 900,200 850,200" fill="#12596b" />
+<polygon points="900,150 950,150 950,200" fill="#0f4c5c" />
+<polygon points="900,150 950,200 900,200" fill="#0b3d4a" />
+<polygon points="950,150 1000,150 950,200" fill="#12596b" />
+<polygon points="1000,150 1000,200 950,200" fill="#176d80" />
+<polygon points="1000,150 1050,150 1050,200" fill="#0b3d4a" />
+<polygon points="1000,150 1050,200 1000,200" fill="#1f7a8c" />
+<polygon points="1050,150 1100,150 1050,200" fill="#1f7a8c" />
+<polygon points="1100,150 1100,200 1050,200" fill="#1f7a8c" />
+<polygon points="1100,150 1150,150 1150,200" fill="#0d4655" />
+<polygon points="1100,150 1150,200 1100,200" fill="#0d4655" />
+<polygon points="1150,150 1200,150 1150,200" fill="#12596b" />
+<polygon points="1200,150 1200,200 1150,200" fill="#0d4655" />
+<polygon points="1200,150 1250,150 1250,200" fill="#0f4c5c" />
+<polygon points="1200,150 1250,200 1200,200" fill="#0f4c5c" />
+<polygon points="1250,150 1300,150 1250,200" fill="#176d80" />
+<polygon points="1300,150 1300,200 1250,200" fill="#0b3d4a" />
+<polygon points="1300,150 1350,150 1350,200" fill="#1f7a8c" />
+<polygon points="1300,150 1350,200 1300,200" fill="#0b3d4a" />
+<polygon points="1350,150 1400,150 1350,200" fill="#0f4c5c" />
+<polygon points="1400,150 1400,200 1350,200" fill="#0f4c5c" />
+<polygon points="1400,150 1450,150 1450,200" fill="#0d4655" />
+<polygon points="1400,150 1450,200 1400,200" fill="#1f7a8c" />
+<polygon points="1450,150 1500,150 1450,200" fill="#0f4c5c" />
+<polygon points="1500,150 1500,200 1450,200" fill="#176d80" />
+<polygon points="1500,150 1550,150 1550,200" fill="#0f4c5c" />
+<polygon points="1500,150 1550,200 1500,200" fill="#1f7a8c" />
+<polygon points="1550,150 1600,150 1550,200" fill="#0b3d4a" />
+<polygon points="1600,150 1600,200 1550,200" fill="#0b3d4a" />
+<polygon points="0,200 50,200 0,250" fill="#12596b" />
+<polygon points="50,200 50,250 0,250" fill="#0f4c5c" />
+<polygon points="50,200 100,200 100,250" fill="#0f4c5c" />
+<polygon points="50,200 100,250 50,250" fill="#176d80" />
+<polygon points="100,200 150,200 100,250" fill="#0d4655" />
+<polygon points="150,200 150,250 100,250" fill="#0b3d4a" />
+<polygon points="150,200 200,200 200,250" fill="#1f7a8c" />
+<polygon points="150,200 200,250 150,250" fill="#0f4c5c" />
+<polygon points="200,200 250,200 200,250" fill="#1f7a8c" />
+<polygon points="250,200 250,250 200,250" fill="#1f7a8c" />
+<polygon points="250,200 300,200 300,250" fill="#1f7a8c" />
+<polygon points="250,200 300,250 250,250" fill="#12596b" />
+<polygon points="300,200 350,200 300,250" fill="#0b3d4a" />
+<polygon points="350,200 350,250 300,250" fill="#0b3d4a" />
+<polygon points="350,200 400,200 400,250" fill="#0f4c5c" />
+<polygon points="350,200 400,250 350,250" fill="#1f7a8c" />
+<polygon points="400,200 450,200 400,250" fill="#176d80" />
+<polygon points="450,200 450,250 400,250" fill="#0f4c5c" />
+<polygon points="450,200 500,200 500,250" fill="#176d80" />
+<polygon points="450,200 500,250 450,250" fill="#0f4c5c" />
+<polygon points="500,200 550,200 500,250" fill="#176d80" />
+<polygon points="550,200 550,250 500,250" fill="#0d4655" />
+<polygon points="550,200 600,200 600,250" fill="#0f4c5c" />
+<polygon points="550,200 600,250 550,250" fill="#0d4655" />
+<polygon points="600,200 650,200 600,250" fill="#1f7a8c" />
+<polygon points="650,200 650,250 600,250" fill="#176d80" />
+<polygon points="650,200 700,200 700,250" fill="#176d80" />
+<polygon points="650,200 700,250 650,250" fill="#0d4655" />
+<polygon points="700,200 750,200 700,250" fill="#0f4c5c" />
+<polygon points="750,200 750,250 700,250" fill="#0d4655" />
+<polygon points="750,200 800,200 800,250" fill="#0f4c5c" />
+<polygon points="750,200 800,250 750,250" fill="#0f4c5c" />
+<polygon points="800,200 850,200 800,250" fill="#0f4c5c" />
+<polygon points="850,200 850,250 800,250" fill="#1f7a8c" />
+<polygon points="850,200 900,200 900,250" fill="#0f4c5c" />
+<polygon points="850,200 900,250 850,250" fill="#0b3d4a" />
+<polygon points="900,200 950,200 900,250" fill="#176d80" />
+<polygon points="950,200 950,250 900,250" fill="#1f7a8c" />
+<polygon points="950,200 1000,200 1000,250" fill="#0b3d4a" />
+<polygon points="950,200 1000,250 950,250" fill="#176d80" />
+<polygon points="1000,200 1050,200 1000,250" fill="#1f7a8c" />
+<polygon points="1050,200 1050,250 1000,250" fill="#1f7a8c" />
+<polygon points="1050,200 1100,200 1100,250" fill="#0d4655" />
+<polygon points="1050,200 1100,250 1050,250" fill="#176d80" />
+<polygon points="1100,200 1150,200 1100,250" fill="#176d80" />
+<polygon points="1150,200 1150,250 1100,250" fill="#176d80" />
+<polygon points="1150,200 1200,200 1200,250" fill="#0d4655" />
+<polygon points="1150,200 1200,250 1150,250" fill="#0f4c5c" />
+<polygon points="1200,200 1250,200 1200,250" fill="#0d4655" />
+<polygon points="1250,200 1250,250 1200,250" fill="#0d4655" />
+<polygon points="1250,200 1300,200 1300,250" fill="#0f4c5c" />
+<polygon points="1250,200 1300,250 1250,250" fill="#0b3d4a" />
+<polygon points="1300,200 1350,200 1300,250" fill="#0d4655" />
+<polygon points="1350,200 1350,250 1300,250" fill="#0f4c5c" />
+<polygon points="1350,200 1400,200 1400,250" fill="#176d80" />
+<polygon points="1350,200 1400,250 1350,250" fill="#0f4c5c" />
+<polygon points="1400,200 1450,200 1400,250" fill="#12596b" />
+<polygon points="1450,200 1450,250 1400,250" fill="#1f7a8c" />
+<polygon points="1450,200 1500,200 1500,250" fill="#0f4c5c" />
+<polygon points="1450,200 1500,250 1450,250" fill="#176d80" />
+<polygon points="1500,200 1550,200 1500,250" fill="#0d4655" />
+<polygon points="1550,200 1550,250 1500,250" fill="#1f7a8c" />
+<polygon points="1550,200 1600,200 1600,250" fill="#176d80" />
+<polygon points="1550,200 1600,250 1550,250" fill="#0b3d4a" />
+<polygon points="0,250 50,250 50,300" fill="#0f4c5c" />
+<polygon points="0,250 50,300 0,300" fill="#0b3d4a" />
+<polygon points="50,250 100,250 50,300" fill="#0b3d4a" />
+<polygon points="100,250 100,300 50,300" fill="#12596b" />
+<polygon points="100,250 150,250 150,300" fill="#1f7a8c" />
+<polygon points="100,250 150,300 100,300" fill="#0d4655" />
+<polygon points="150,250 200,250 150,300" fill="#12596b" />
+<polygon points="200,250 200,300 150,300" fill="#0d4655" />
+<polygon points="200,250 250,250 250,300" fill="#12596b" />
+<polygon points="200,250 250,300 200,300" fill="#0b3d4a" />
+<polygon points="250,250 300,250 250,300" fill="#1f7a8c" />
+<polygon points="300,250 300,300 250,300" fill="#176d80" />
+<polygon points="300,250 350,250 350,300" fill="#176d80" />
+<polygon points="300,250 350,300 300,300" fill="#12596b" />
+<polygon points="350,250 400,250 350,300" fill="#0b3d4a" />
+<polygon points="400,250 400,300 350,300" fill="#176d80" />
+<polygon points="400,250 450,250 450,300" fill="#1f7a8c" />
+<polygon points="400,250 450,300 400,300" fill="#0b3d4a" />
+<polygon points="450,250 500,250 450,300" fill="#12596b" />
+<polygon points="500,250 500,300 450,300" fill="#1f7a8c" />
+<polygon points="500,250 550,250 550,300" fill="#176d80" />
+<polygon points="500,250 550,300 500,300" fill="#12596b" />
+<polygon points="550,250 600,250 550,300" fill="#12596b" />
+<polygon points="600,250 600,300 550,300" fill="#176d80" />
+<polygon points="600,250 650,250 650,300" fill="#12596b" />
+<polygon points="600,250 650,300 600,300" fill="#0d4655" />
+<polygon points="650,250 700,250 650,300" fill="#0b3d4a" />
+<polygon points="700,250 700,300 650,300" fill="#12596b" />
+<polygon points="700,250 750,250 750,300" fill="#12596b" />
+<polygon points="700,250 750,300 700,300" fill="#12596b" />
+<polygon points="750,250 800,250 750,300" fill="#176d80" />
+<polygon points="800,250 800,300 750,300" fill="#0b3d4a" />
+<polygon points="800,250 850,250 850,300" fill="#0f4c5c" />
+<polygon points="800,250 850,300 800,300" fill="#1f7a8c" />
+<polygon points="850,250 900,250 850,300" fill="#0f4c5c" />
+<polygon points="900,250 900,300 850,300" fill="#0b3d4a" />
+<polygon points="900,250 950,250 950,300" fill="#12596b" />
+<polygon points="900,250 950,300 900,300" fill="#0f4c5c" />
+<polygon points="950,250 1000,250 950,300" fill="#176d80" />
+<polygon points="1000,250 1000,300 950,300" fill="#176d80" />
+<polygon points="1000,250 1050,250 1050,300" fill="#0b3d4a" />
+<polygon points="1000,250 1050,300 1000,300" fill="#12596b" />
+<polygon points="1050,250 1100,250 1050,300" fill="#176d80" />
+<polygon points="1100,250 1100,300 1050,300" fill="#176d80" />
+<polygon points="1100,250 1150,250 1150,300" fill="#1f7a8c" />
+<polygon points="1100,250 1150,300 1100,300" fill="#0d4655" />
+<polygon points="1150,250 1200,250 1150,300" fill="#176d80" />
+<polygon points="1200,250 1200,300 1150,300" fill="#1f7a8c" />
+<polygon points="1200,250 1250,250 1250,300" fill="#0b3d4a" />
+<polygon points="1200,250 1250,300 1200,300" fill="#1f7a8c" />
+<polygon points="1250,250 1300,250 1250,300" fill="#0d4655" />
+<polygon points="1300,250 1300,300 1250,300" fill="#176d80" />
+<polygon points="1300,250 1350,250 1350,300" fill="#0b3d4a" />
+<polygon points="1300,250 1350,300 1300,300" fill="#0f4c5c" />
+<polygon points="1350,250 1400,250 1350,300" fill="#0f4c5c" />
+<polygon points="1400,250 1400,300 1350,300" fill="#0b3d4a" />
+<polygon points="1400,250 1450,250 1450,300" fill="#0d4655" />
+<polygon points="1400,250 1450,300 1400,300" fill="#0f4c5c" />
+<polygon points="1450,250 1500,250 1450,300" fill="#1f7a8c" />
+<polygon points="1500,250 1500,300 1450,300" fill="#1f7a8c" />
+<polygon points="1500,250 1550,250 1550,300" fill="#0b3d4a" />
+<polygon points="1500,250 1550,300 1500,300" fill="#0d4655" />
+<polygon points="1550,250 1600,250 1550,300" fill="#0b3d4a" />
+<polygon points="1600,250 1600,300 1550,300" fill="#0b3d4a" />
+<polygon points="0,300 50,300 0,350" fill="#1f7a8c" />
+<polygon points="50,300 50,350 0,350" fill="#0d4655" />
+<polygon points="50,300 100,300 100,350" fill="#0f4c5c" />
+<polygon points="50,300 100,350 50,350" fill="#1f7a8c" />
+<polygon points="100,300 150,300 100,350" fill="#12596b" />
+<polygon points="150,300 150,350 100,350" fill="#176d80" />
+<polygon points="150,300 200,300 200,350" fill="#176d80" />
+<polygon points="150,300 200,350 150,350" fill="#12596b" />
+<polygon points="200,300 250,300 200,350" fill="#0f4c5c" />
+<polygon points="250,300 250,350 200,350" fill="#0b3d4a" />
+<polygon points="250,300 300,300 300,350" fill="#12596b" />
+<polygon points="250,300 300,350 250,350" fill="#12596b" />
+<polygon points="300,300 350,300 300,350" fill="#0f4c5c" />
+<polygon points="350,300 350,350 300,350" fill="#1f7a8c" />
+<polygon points="350,300 400,300 400,350" fill="#0f4c5c" />
+<polygon points="350,300 400,350 350,350" fill="#176d80" />
+<polygon points="400,300 450,300 400,350" fill="#0f4c5c" />
+<polygon points="450,300 450,350 400,350" fill="#1f7a8c" />
+<polygon points="450,300 500,300 500,350" fill="#0d4655" />
+<polygon points="450,300 500,350 450,350" fill="#1f7a8c" />
+<polygon points="500,300 550,300 500,350" fill="#1f7a8c" />
+<polygon points="550,300 550,350 500,350" fill="#0b3d4a" />
+<polygon points="550,300 600,300 600,350" fill="#0f4c5c" />
+<polygon points="550,300 600,350 550,350" fill="#1f7a8c" />
+<polygon points="600,300 650,300 600,350" fill="#12596b" />
+<polygon points="650,300 650,350 600,350" fill="#12596b" />
+<polygon points="650,300 700,300 700,350" fill="#176d80" />
+<polygon points="650,300 700,350 650,350" fill="#0b3d4a" />
+<polygon points="700,300 750,300 700,350" fill="#12596b" />
+<polygon points="750,300 750,350 700,350" fill="#1f7a8c" />
+<polygon points="750,300 800,300 800,350" fill="#0f4c5c" />
+<polygon points="750,300 800,350 750,350" fill="#176d80" />
+<polygon points="800,300 850,300 800,350" fill="#0d4655" />
+<polygon points="850,300 850,350 800,350" fill="#1f7a8c" />
+<polygon points="850,300 900,300 900,350" fill="#0f4c5c" />
+<polygon points="850,300 900,350 850,350" fill="#12596b" />
+<polygon points="900,300 950,300 900,350" fill="#12596b" />
+<polygon points="950,300 950,350 900,350" fill="#0b3d4a" />
+<polygon points="950,300 1000,300 1000,350" fill="#0b3d4a" />
+<polygon points="950,300 1000,350 950,350" fill="#0d4655" />
+<polygon points="1000,300 1050,300 1000,350" fill="#1f7a8c" />
+<polygon points="1050,300 1050,350 1000,350" fill="#0d4655" />
+<polygon points="1050,300 1100,300 1100,350" fill="#0d4655" />
+<polygon points="1050,300 1100,350 1050,350" fill="#0d4655" />
+<polygon points="1100,300 1150,300 1100,350" fill="#12596b" />
+<polygon points="1150,300 1150,350 1100,350" fill="#176d80" />
+<polygon points="1150,300 1200,300 1200,350" fill="#1f7a8c" />
+<polygon points="1150,300 1200,350 1150,350" fill="#12596b" />
+<polygon points="1200,300 1250,300 1200,350" fill="#0f4c5c" />
+<polygon points="1250,300 1250,350 1200,350" fill="#176d80" />
+<polygon points="1250,300 1300,300 1300,350" fill="#1f7a8c" />
+<polygon points="1250,300 1300,350 1250,350" fill="#176d80" />
+<polygon points="1300,300 1350,300 1300,350" fill="#12596b" />
+<polygon points="1350,300 1350,350 1300,350" fill="#176d80" />
+<polygon points="1350,300 1400,300 1400,350" fill="#176d80" />
+<polygon points="1350,300 1400,350 1350,350" fill="#12596b" />
+<polygon points="1400,300 1450,300 1400,350" fill="#1f7a8c" />
+<polygon points="1450,300 1450,350 1400,350" fill="#0f4c5c" />
+<polygon points="1450,300 1500,300 1500,350" fill="#176d80" />
+<polygon points="1450,300 1500,350 1450,350" fill="#0d4655" />
+<polygon points="1500,300 1550,300 1500,350" fill="#0d4655" />
+<polygon points="1550,300 1550,350 1500,350" fill="#1f7a8c" />
+<polygon points="1550,300 1600,300 1600,350" fill="#0d4655" />
+<polygon points="1550,300 1600,350 1550,350" fill="#0b3d4a" />
+<polygon points="0,350 50,350 50,400" fill="#176d80" />
+<polygon points="0,350 50,400 0,400" fill="#0b3d4a" />
+<polygon points="50,350 100,350 50,400" fill="#1f7a8c" />
+<polygon points="100,350 100,400 50,400" fill="#12596b" />
+<polygon points="100,350 150,350 150,400" fill="#0f4c5c" />
+<polygon points="100,350 150,400 100,400" fill="#1f7a8c" />
+<polygon points="150,350 200,350 150,400" fill="#1f7a8c" />
+<polygon points="200,350 200,400 150,400" fill="#1f7a8c" />
+<polygon points="200,350 250,350 250,400" fill="#0f4c5c" />
+<polygon points="200,350 250,400 200,400" fill="#12596b" />
+<polygon points="250,350 300,350 250,400" fill="#12596b" />
+<polygon points="300,350 300,400 250,400" fill="#176d80" />
+<polygon points="300,350 350,350 350,400" fill="#0f4c5c" />
+<polygon points="300,350 350,400 300,400" fill="#0b3d4a" />
+<polygon points="350,350 400,350 350,400" fill="#0d4655" />
+<polygon points="400,350 400,400 350,400" fill="#0b3d4a" />
+<polygon points="400,350 450,350 450,400" fill="#0b3d4a" />
+<polygon points="400,350 450,400 400,400" fill="#1f7a8c" />
+<polygon points="450,350 500,350 450,400" fill="#0f4c5c" />
+<polygon points="500,350 500,400 450,400" fill="#0b3d4a" />
+<polygon points="500,350 550,350 550,400" fill="#0d4655" />
+<polygon points="500,350 550,400 500,400" fill="#0f4c5c" />
+<polygon points="550,350 600,350 550,400" fill="#0f4c5c" />
+<polygon points="600,350 600,400 550,400" fill="#176d80" />
+<polygon points="600,350 650,350 650,400" fill="#0b3d4a" />
+<polygon points="600,350 650,400 600,400" fill="#0d4655" />
+<polygon points="650,350 700,350 650,400" fill="#176d80" />
+<polygon points="700,350 700,400 650,400" fill="#0b3d4a" />
+<polygon points="700,350 750,350 750,400" fill="#176d80" />
+<polygon points="700,350 750,400 700,400" fill="#0f4c5c" />
+<polygon points="750,350 800,350 750,400" fill="#12596b" />
+<polygon points="800,350 800,400 750,400" fill="#0f4c5c" />
+<polygon points="800,350 850,350 850,400" fill="#176d80" />
+<polygon points="800,350 850,400 800,400" fill="#0f4c5c" />
+<polygon points="850,350 900,350 850,400" fill="#12596b" />
+<polygon points="900,350 900,400 850,400" fill="#0d4655" />
+<polygon points="900,350 950,350 950,400" fill="#0b3d4a" />
+<polygon points="900,350 950,400 900,400" fill="#1f7a8c" />
+<polygon points="950,350 1000,350 950,400" fill="#12596b" />
+<polygon points="1000,350 1000,400 950,400" fill="#176d80" />
+<polygon points="1000,350 1050,350 1050,400" fill="#12596b" />
+<polygon points="1000,350 1050,400 1000,400" fill="#0d4655" />
+<polygon points="1050,350 1100,350 1050,400" fill="#1f7a8c" />
+<polygon points="1100,350 1100,400 1050,400" fill="#0d4655" />
+<polygon points="1100,350 1150,350 1150,400" fill="#1f7a8c" />
+<polygon points="1100,350 1150,400 1100,400" fill="#1f7a8c" />
+<polygon points="1150,350 1200,350 1150,400" fill="#176d80" />
+<polygon points="1200,350 1200,400 1150,400" fill="#176d80" />
+<polygon points="1200,350 1250,350 1250,400" fill="#0d4655" />
+<polygon points="1200,350 1250,400 1200,400" fill="#1f7a8c" />
+<polygon points="1250,350 1300,350 1250,400" fill="#0f4c5c" />
+<polygon points="1300,350 1300,400 1250,400" fill="#12596b" />
+<polygon points="1300,350 1350,350 1350,400" fill="#176d80" />
+<polygon points="1300,350 1350,400 1300,400" fill="#0d4655" />
+<polygon points="1350,350 1400,350 1350,400" fill="#0d4655" />
+<polygon points="1400,350 1400,400 1350,400" fill="#0b3d4a" />
+<polygon points="1400,350 1450,350 1450,400" fill="#1f7a8c" />
+<polygon points="1400,350 1450,400 1400,400" fill="#0d4655" />
+<polygon points="1450,350 1500,350 1450,400" fill="#1f7a8c" />
+<polygon points="1500,350 1500,400 1450,400" fill="#12596b" />
+<polygon points="1500,350 1550,350 1550,400" fill="#0d4655" />
+<polygon points="1500,350 1550,400 1500,400" fill="#0d4655" />
+<polygon points="1550,350 1600,350 1550,400" fill="#0d4655" />
+<polygon points="1600,350 1600,400 1550,400" fill="#0b3d4a" />
+<polygon points="0,400 50,400 0,450" fill="#0b3d4a" />
+<polygon points="50,400 50,450 0,450" fill="#1f7a8c" />
+<polygon points="50,400 100,400 100,450" fill="#176d80" />
+<polygon points="50,400 100,450 50,450" fill="#0d4655" />
+<polygon points="100,400 150,400 100,450" fill="#12596b" />
+<polygon points="150,400 150,450 100,450" fill="#0b3d4a" />
+<polygon points="150,400 200,400 200,450" fill="#12596b" />
+<polygon points="150,400 200,450 150,450" fill="#0d4655" />
+<polygon points="200,400 250,400 200,450" fill="#0d4655" />
+<polygon points="250,400 250,450 200,450" fill="#0b3d4a" />
+<polygon points="250,400 300,400 300,450" fill="#0d4655" />
+<polygon points="250,400 300,450 250,450" fill="#176d80" />
+<polygon points="300,400 350,400 300,450" fill="#12596b" />
+<polygon points="350,400 350,450 300,450" fill="#176d80" />
+<polygon points="350,400 400,400 400,450" fill="#0d4655" />
+<polygon points="350,400 400,450 350,450" fill="#0f4c5c" />
+<polygon points="400,400 450,400 400,450" fill="#0d4655" />
+<polygon points="450,400 450,450 400,450" fill="#0f4c5c" />
+<polygon points="450,400 500,400 500,450" fill="#0d4655" />
+<polygon points="450,400 500,450 450,450" fill="#176d80" />
+<polygon points="500,400 550,400 500,450" fill="#0f4c5c" />
+<polygon points="550,400 550,450 500,450" fill="#0d4655" />
+<polygon points="550,400 600,400 600,450" fill="#0f4c5c" />
+<polygon points="550,400 600,450 550,450" fill="#0d4655" />
+<polygon points="600,400 650,400 600,450" fill="#176d80" />
+<polygon points="650,400 650,450 600,450" fill="#0d4655" />
+<polygon points="650,400 700,400 700,450" fill="#0d4655" />
+<polygon points="650,400 700,450 650,450" fill="#0f4c5c" />
+<polygon points="700,400 750,400 700,450" fill="#176d80" />
+<polygon points="750,400 750,450 700,450" fill="#0f4c5c" />
+<polygon points="750,400 800,400 800,450" fill="#1f7a8c" />
+<polygon points="750,400 800,450 750,450" fill="#12596b" />
+<polygon points="800,400 850,400 800,450" fill="#0f4c5c" />
+<polygon points="850,400 850,450 800,450" fill="#0d4655" />
+<polygon points="850,400 900,400 900,450" fill="#176d80" />
+<polygon points="850,400 900,450 850,450" fill="#176d80" />
+<polygon points="900,400 950,400 900,450" fill="#176d80" />
+<polygon points="950,400 950,450 900,450" fill="#0b3d4a" />
+<polygon points="950,400 1000,400 1000,450" fill="#12596b" />
+<polygon points="950,400 1000,450 950,450" fill="#176d80" />
+<polygon points="1000,400 1050,400 1000,450" fill="#176d80" />
+<polygon points="1050,400 1050,450 1000,450" fill="#12596b" />
+<polygon points="1050,400 1100,400 1100,450" fill="#0b3d4a" />
+<polygon points="1050,400 1100,450 1050,450" fill="#176d80" />
+<polygon points="1100,400 1150,400 1100,450" fill="#176d80" />
+<polygon points="1150,400 1150,450 1100,450" fill="#0d4655" />
+<polygon points="1150,400 1200,400 1200,450" fill="#0b3d4a" />
+<polygon points="1150,400 1200,450 1150,450" fill="#0f4c5c" />
+<polygon points="1200,400 1250,400 1200,450" fill="#12596b" />
+<polygon points="1250,400 1250,450 1200,450" fill="#176d80" />
+<polygon points="1250,400 1300,400 1300,450" fill="#0d4655" />
+<polygon points="1250,400 1300,450 1250,450" fill="#0f4c5c" />
+<polygon points="1300,400 1350,400 1300,450" fill="#0b3d4a" />
+<polygon points="1350,400 1350,450 1300,450" fill="#12596b" />
+<polygon points="1350,400 1400,400 1400,450" fill="#1f7a8c" />
+<polygon points="1350,400 1400,450 1350,450" fill="#0f4c5c" />
+<polygon points="1400,400 1450,400 1400,450" fill="#0f4c5c" />
+<polygon points="1450,400 1450,450 1400,450" fill="#12596b" />
+<polygon points="1450,400 1500,400 1500,450" fill="#12596b" />
+<polygon points="1450,400 1500,450 1450,450" fill="#12596b" />
+<polygon points="1500,400 1550,400 1500,450" fill="#0f4c5c" />
+<polygon points="1550,400 1550,450 1500,450" fill="#1f7a8c" />
+<polygon points="1550,400 1600,400 1600,450" fill="#0b3d4a" />
+<polygon points="1550,400 1600,450 1550,450" fill="#0b3d4a" />
+<polygon points="0,450 50,450 50,500" fill="#1f7a8c" />
+<polygon points="0,450 50,500 0,500" fill="#0b3d4a" />
+<polygon points="50,450 100,450 50,500" fill="#12596b" />
+<polygon points="100,450 100,500 50,500" fill="#0d4655" />
+<polygon points="100,450 150,450 150,500" fill="#176d80" />
+<polygon points="100,450 150,500 100,500" fill="#0f4c5c" />
+<polygon points="150,450 200,450 150,500" fill="#176d80" />
+<polygon points="200,450 200,500 150,500" fill="#1f7a8c" />
+<polygon points="200,450 250,450 250,500" fill="#0d4655" />
+<polygon points="200,450 250,500 200,500" fill="#0f4c5c" />
+<polygon points="250,450 300,450 250,500" fill="#0d4655" />
+<polygon points="300,450 300,500 250,500" fill="#0d4655" />
+<polygon points="300,450 350,450 350,500" fill="#0b3d4a" />
+<polygon points="300,450 350,500 300,500" fill="#1f7a8c" />
+<polygon points="350,450 400,450 350,500" fill="#12596b" />
+<polygon points="400,450 400,500 350,500" fill="#1f7a8c" />
+<polygon points="400,450 450,450 450,500" fill="#0d4655" />
+<polygon points="400,450 450,500 400,500" fill="#176d80" />
+<polygon points="450,450 500,450 450,500" fill="#0f4c5c" />
+<polygon points="500,450 500,500 450,500" fill="#176d80" />
+<polygon points="500,450 550,450 550,500" fill="#1f7a8c" />
+<polygon points="500,450 550,500 500,500" fill="#176d80" />
+<polygon points="550,450 600,450 550,500" fill="#0d4655" />
+<polygon points="600,450 600,500 550,500" fill="#0d4655" />
+<polygon points="600,450 650,450 650,500" fill="#12596b" />
+<polygon points="600,450 650,500 600,500" fill="#0d4655" />
+<polygon points="650,450 700,450 650,500" fill="#12596b" />
+<polygon points="700,450 700,500 650,500" fill="#1f7a8c" />
+<polygon points="700,450 750,450 750,500" fill="#0d4655" />
+<polygon points="700,450 750,500 700,500" fill="#1f7a8c" />
+<polygon points="750,450 800,450 750,500" fill="#12596b" />
+<polygon points="800,450 800,500 750,500" fill="#0d4655" />
+<polygon points="800,450 850,450 850,500" fill="#12596b" />
+<polygon points="800,450 850,500 800,500" fill="#0d4655" />
+<polygon points="850,450 900,450 850,500" fill="#0d4655" />
+<polygon points="900,450 900,500 850,500" fill="#0d4655" />
+<polygon points="900,450 950,450 950,500" fill="#12596b" />
+<polygon points="900,450 950,500 900,500" fill="#12596b" />
+<polygon points="950,450 1000,450 950,500" fill="#1f7a8c" />
+<polygon points="1000,450 1000,500 950,500" fill="#1f7a8c" />
+<polygon points="1000,450 1050,450 1050,500" fill="#0b3d4a" />
+<polygon points="1000,450 1050,500 1000,500" fill="#12596b" />
+<polygon points="1050,450 1100,450 1050,500" fill="#0b3d4a" />
+<polygon points="1100,450 1100,500 1050,500" fill="#0d4655" />
+<polygon points="1100,450 1150,450 1150,500" fill="#0b3d4a" />
+<polygon points="1100,450 1150,500 1100,500" fill="#12596b" />
+<polygon points="1150,450 1200,450 1150,500" fill="#12596b" />
+<polygon points="1200,450 1200,500 1150,500" fill="#12596b" />
+<polygon points="1200,450 1250,450 1250,500" fill="#0f4c5c" />
+<polygon points="1200,450 1250,500 1200,500" fill="#12596b" />
+<polygon points="1250,450 1300,450 1250,500" fill="#12596b" />
+<polygon points="1300,450 1300,500 1250,500" fill="#12596b" />
+<polygon points="1300,450 1350,450 1350,500" fill="#1f7a8c" />
+<polygon points="1300,450 1350,500 1300,500" fill="#0f4c5c" />
+<polygon points="1350,450 1400,450 1350,500" fill="#0b3d4a" />
+<polygon points="1400,450 1400,500 1350,500" fill="#176d80" />
+<polygon points="1400,450 1450,450 1450,500" fill="#0f4c5c" />
+<polygon points="1400,450 1450,500 1400,500" fill="#176d80" />
+<polygon points="1450,450 1500,450 1450,500" fill="#176d80" />
+<polygon points="1500,450 1500,500 1450,500" fill="#0d4655" />
+<polygon points="1500,450 1550,450 1550,500" fill="#1f7a8c" />
+<polygon points="1500,450 1550,500 1500,500" fill="#12596b" />
+<polygon points="1550,450 1600,450 1550,500" fill="#12596b" />
+<polygon points="1600,450 1600,500 1550,500" fill="#176d80" />
+<polygon points="0,500 50,500 0,550" fill="#1f7a8c" />
+<polygon points="50,500 50,550 0,550" fill="#1f7a8c" />
+<polygon points="50,500 100,500 100,550" fill="#0f4c5c" />
+<polygon points="50,500 100,550 50,550" fill="#0f4c5c" />
+<polygon points="100,500 150,500 100,550" fill="#12596b" />
+<polygon points="150,500 150,550 100,550" fill="#0d4655" />
+<polygon points="150,500 200,500 200,550" fill="#1f7a8c" />
+<polygon points="150,500 200,550 150,550" fill="#0b3d4a" />
+<polygon points="200,500 250,500 200,550" fill="#0b3d4a" />
+<polygon points="250,500 250,550 200,550" fill="#0f4c5c" />
+<polygon points="250,500 300,500 300,550" fill="#1f7a8c" />
+<polygon points="250,500 300,550 250,550" fill="#0d4655" />
+<polygon points="300,500 350,500 300,550" fill="#1f7a8c" />
+<polygon points="350,500 350,550 300,550" fill="#0b3d4a" />
+<polygon points="350,500 400,500 400,550" fill="#0d4655" />
+<polygon points="350,500 400,550 350,550" fill="#1f7a8c" />
+<polygon points="400,500 450,500 400,550" fill="#12596b" />
+<polygon points="450,500 450,550 400,550" fill="#0f4c5c" />
+<polygon points="450,500 500,500 500,550" fill="#176d80" />
+<polygon points="450,500 500,550 450,550" fill="#0f4c5c" />
+<polygon points="500,500 550,500 500,550" fill="#0f4c5c" />
+<polygon points="550,500 550,550 500,550" fill="#0f4c5c" />
+<polygon points="550,500 600,500 600,550" fill="#0d4655" />
+<polygon points="550,500 600,550 550,550" fill="#0d4655" />
+<polygon points="600,500 650,500 600,550" fill="#0d4655" />
+<polygon points="650,500 650,550 600,550" fill="#0d4655" />
+<polygon points="650,500 700,500 700,550" fill="#176d80" />
+<polygon points="650,500 700,550 650,550" fill="#12596b" />
+<polygon points="700,500 750,500 700,550" fill="#12596b" />
+<polygon points="750,500 750,550 700,550" fill="#12596b" />
+<polygon points="750,500 800,500 800,550" fill="#0f4c5c" />
+<polygon points="750,500 800,550 750,550" fill="#12596b" />
+<polygon points="800,500 850,500 800,550" fill="#12596b" />
+<polygon points="850,500 850,550 800,550" fill="#12596b" />
+<polygon points="850,500 900,500 900,550" fill="#0b3d4a" />
+<polygon points="850,500 900,550 850,550" fill="#1f7a8c" />
+<polygon points="900,500 950,500 900,550" fill="#0f4c5c" />
+<polygon points="950,500 950,550 900,550" fill="#0d4655" />
+<polygon points="950,500 1000,500 1000,550" fill="#0f4c5c" />
+<polygon points="950,500 1000,550 950,550" fill="#12596b" />
+<polygon points="1000,500 1050,500 1000,550" fill="#1f7a8c" />
+<polygon points="1050,500 1050,550 1000,550" fill="#176d80" />
+<polygon points="1050,500 1100,500 1100,550" fill="#0f4c5c" />
+<polygon points="1050,500 1100,550 1050,550" fill="#0f4c5c" />
+<polygon points="1100,500 1150,500 1100,550" fill="#0b3d4a" />
+<polygon points="1150,500 1150,550 1100,550" fill="#176d80" />
+<polygon points="1150,500 1200,500 1200,550" fill="#176d80" />
+<polygon points="1150,500 1200,550 1150,550" fill="#176d80" />
+<polygon points="1200,500 1250,500 1200,550" fill="#0d4655" />
+<polygon points="1250,500 1250,550 1200,550" fill="#0b3d4a" />
+<polygon points="1250,500 1300,500 1300,550" fill="#176d80" />
+<polygon points="1250,500 1300,550 1250,550" fill="#12596b" />
+<polygon points="1300,500 1350,500 1300,550" fill="#0d4655" />
+<polygon points="1350,500 1350,550 1300,550" fill="#0b3d4a" />
+<polygon points="1350,500 1400,500 1400,550" fill="#0f4c5c" />
+<polygon points="1350,500 1400,550 1350,550" fill="#1f7a8c" />
+<polygon points="1400,500 1450,500 1400,550" fill="#1f7a8c" />
+<polygon points="1450,500 1450,550 1400,550" fill="#0f4c5c" />
+<polygon points="1450,500 1500,500 1500,550" fill="#12596b" />
+<polygon points="1450,500 1500,550 1450,550" fill="#12596b" />
+<polygon points="1500,500 1550,500 1500,550" fill="#176d80" />
+<polygon points="1550,500 1550,550 1500,550" fill="#176d80" />
+<polygon points="1550,500 1600,500 1600,550" fill="#0b3d4a" />
+<polygon points="1550,500 1600,550 1550,550" fill="#1f7a8c" />
+<polygon points="0,550 50,550 50,600" fill="#0b3d4a" />
+<polygon points="0,550 50,600 0,600" fill="#176d80" />
+<polygon points="50,550 100,550 50,600" fill="#12596b" />
+<polygon points="100,550 100,600 50,600" fill="#0d4655" />
+<polygon points="100,550 150,550 150,600" fill="#12596b" />
+<polygon points="100,550 150,600 100,600" fill="#0f4c5c" />
+<polygon points="150,550 200,550 150,600" fill="#0d4655" />
+<polygon points="200,550 200,600 150,600" fill="#0f4c5c" />
+<polygon points="200,550 250,550 250,600" fill="#0b3d4a" />
+<polygon points="200,550 250,600 200,600" fill="#0f4c5c" />
+<polygon points="250,550 300,550 250,600" fill="#1f7a8c" />
+<polygon points="300,550 300,600 250,600" fill="#1f7a8c" />
+<polygon points="300,550 350,550 350,600" fill="#176d80" />
+<polygon points="300,550 350,600 300,600" fill="#0d4655" />
+<polygon points="350,550 400,550 350,600" fill="#0d4655" />
+<polygon points="400,550 400,600 350,600" fill="#12596b" />
+<polygon points="400,550 450,550 450,600" fill="#0d4655" />
+<polygon points="400,550 450,600 400,600" fill="#0d4655" />
+<polygon points="450,550 500,550 450,600" fill="#0b3d4a" />
+<polygon points="500,550 500,600 450,600" fill="#0b3d4a" />
+<polygon points="500,550 550,550 550,600" fill="#0b3d4a" />
+<polygon points="500,550 550,600 500,600" fill="#0f4c5c" />
+<polygon points="550,550 600,550 550,600" fill="#1f7a8c" />
+<polygon points="600,550 600,600 550,600" fill="#1f7a8c" />
+<polygon points="600,550 650,550 650,600" fill="#12596b" />
+<polygon points="600,550 650,600 600,600" fill="#176d80" />
+<polygon points="650,550 700,550 650,600" fill="#12596b" />
+<polygon points="700,550 700,600 650,600" fill="#0b3d4a" />
+<polygon points="700,550 750,550 750,600" fill="#0d4655" />
+<polygon points="700,550 750,600 700,600" fill="#1f7a8c" />
+<polygon points="750,550 800,550 750,600" fill="#0b3d4a" />
+<polygon points="800,550 800,600 750,600" fill="#176d80" />
+<polygon points="800,550 850,550 850,600" fill="#12596b" />
+<polygon points="800,550 850,600 800,600" fill="#176d80" />
+<polygon points="850,550 900,550 850,600" fill="#12596b" />
+<polygon points="900,550 900,600 850,600" fill="#1f7a8c" />
+<polygon points="900,550 950,550 950,600" fill="#12596b" />
+<polygon points="900,550 950,600 900,600" fill="#0f4c5c" />
+<polygon points="950,550 1000,550 950,600" fill="#0b3d4a" />
+<polygon points="1000,550 1000,600 950,600" fill="#0b3d4a" />
+<polygon points="1000,550 1050,550 1050,600" fill="#176d80" />
+<polygon points="1000,550 1050,600 1000,600" fill="#0f4c5c" />
+<polygon points="1050,550 1100,550 1050,600" fill="#0f4c5c" />
+<polygon points="1100,550 1100,600 1050,600" fill="#0b3d4a" />
+<polygon points="1100,550 1150,550 1150,600" fill="#1f7a8c" />
+<polygon points="1100,550 1150,600 1100,600" fill="#0d4655" />
+<polygon points="1150,550 1200,550 1150,600" fill="#0f4c5c" />
+<polygon points="1200,550 1200,600 1150,600" fill="#12596b" />
+<polygon points="1200,550 1250,550 1250,600" fill="#0b3d4a" />
+<polygon points="1200,550 1250,600 1200,600" fill="#1f7a8c" />
+<polygon points="1250,550 1300,550 1250,600" fill="#0b3d4a" />
+<polygon points="1300,550 1300,600 1250,600" fill="#0b3d4a" />
+<polygon points="1300,550 1350,550 1350,600" fill="#12596b" />
+<polygon points="1300,550 1350,600 1300,600" fill="#1f7a8c" />
+<polygon points="1350,550 1400,550 1350,600" fill="#176d80" />
+<polygon points="1400,550 1400,600 1350,600" fill="#0d4655" />
+<polygon points="1400,550 1450,550 1450,600" fill="#12596b" />
+<polygon points="1400,550 1450,600 1400,600" fill="#0d4655" />
+<polygon points="1450,550 1500,550 1450,600" fill="#0f4c5c" />
+<polygon points="1500,550 1500,600 1450,600" fill="#176d80" />
+<polygon points="1500,550 1550,550 1550,600" fill="#0d4655" />
+<polygon points="1500,550 1550,600 1500,600" fill="#176d80" />
+<polygon points="1550,550 1600,550 1550,600" fill="#1f7a8c" />
+<polygon points="1600,550 1600,600 1550,600" fill="#12596b" />
+<polygon points="0,600 50,600 0,650" fill="#1f7a8c" />
+<polygon points="50,600 50,650 0,650" fill="#0f4c5c" />
+<polygon points="50,600 100,600 100,650" fill="#176d80" />
+<polygon points="50,600 100,650 50,650" fill="#0d4655" />
+<polygon points="100,600 150,600 100,650" fill="#0f4c5c" />
+<polygon points="150,600 150,650 100,650" fill="#0f4c5c" />
+<polygon points="150,600 200,600 200,650" fill="#0d4655" />
+<polygon points="150,600 200,650 150,650" fill="#0f4c5c" />
+<polygon points="200,600 250,600 200,650" fill="#1f7a8c" />
+<polygon points="250,600 250,650 200,650" fill="#12596b" />
+<polygon points="250,600 300,600 300,650" fill="#0b3d4a" />
+<polygon points="250,600 300,650 250,650" fill="#176d80" />
+<polygon points="300,600 350,600 300,650" fill="#176d80" />
+<polygon points="350,600 350,650 300,650" fill="#0d4655" />
+<polygon points="350,600 400,600 400,650" fill="#0f4c5c" />
+<polygon points="350,600 400,650 350,650" fill="#12596b" />
+<polygon points="400,600 450,600 400,650" fill="#1f7a8c" />
+<polygon points="450,600 450,650 400,650" fill="#176d80" />
+<polygon points="450,600 500,600 500,650" fill="#0f4c5c" />
+<polygon points="450,600 500,650 450,650" fill="#0f4c5c" />
+<polygon points="500,600 550,600 500,650" fill="#0b3d4a" />
+<polygon points="550,600 550,650 500,650" fill="#0b3d4a" />
+<polygon points="550,600 600,600 600,650" fill="#0b3d4a" />
+<polygon points="550,600 600,650 550,650" fill="#0b3d4a" />
+<polygon points="600,600 650,600 600,650" fill="#0d4655" />
+<polygon points="650,600 650,650 600,650" fill="#0d4655" />
+<polygon points="650,600 700,600 700,650" fill="#0d4655" />
+<polygon points="650,600 700,650 650,650" fill="#176d80" />
+<polygon points="700,600 750,600 700,650" fill="#0d4655" />
+<polygon points="750,600 750,650 700,650" fill="#0d4655" />
+<polygon points="750,600 800,600 800,650" fill="#0f4c5c" />
+<polygon points="750,600 800,650 750,650" fill="#1f7a8c" />
+<polygon points="800,600 850,600 800,650" fill="#176d80" />
+<polygon points="850,600 850,650 800,650" fill="#1f7a8c" />
+<polygon points="850,600 900,600 900,650" fill="#0f4c5c" />
+<polygon points="850,600 900,650 850,650" fill="#0d4655" />
+<polygon points="900,600 950,600 900,650" fill="#0d4655" />
+<polygon points="950,600 950,650 900,650" fill="#1f7a8c" />
+<polygon points="950,600 1000,600 1000,650" fill="#0f4c5c" />
+<polygon points="950,600 1000,650 950,650" fill="#176d80" />
+<polygon points="1000,600 1050,600 1000,650" fill="#12596b" />
+<polygon points="1050,600 1050,650 1000,650" fill="#176d80" />
+<polygon points="1050,600 1100,600 1100,650" fill="#176d80" />
+<polygon points="1050,600 1100,650 1050,650" fill="#12596b" />
+<polygon points="1100,600 1150,600 1100,650" fill="#176d80" />
+<polygon points="1150,600 1150,650 1100,650" fill="#0d4655" />
+<polygon points="1150,600 1200,600 1200,650" fill="#0d4655" />
+<polygon points="1150,600 1200,650 1150,650" fill="#0d4655" />
+<polygon points="1200,600 1250,600 1200,650" fill="#0f4c5c" />
+<polygon points="1250,600 1250,650 1200,650" fill="#176d80" />
+<polygon points="1250,600 1300,600 1300,650" fill="#176d80" />
+<polygon points="1250,600 1300,650 1250,650" fill="#176d80" />
+<polygon points="1300,600 1350,600 1300,650" fill="#0b3d4a" />
+<polygon points="1350,600 1350,650 1300,650" fill="#0d4655" />
+<polygon points="1350,600 1400,600 1400,650" fill="#176d80" />
+<polygon points="1350,600 1400,650 1350,650" fill="#0d4655" />
+<polygon points="1400,600 1450,600 1400,650" fill="#0b3d4a" />
+<polygon points="1450,600 1450,650 1400,650" fill="#0b3d4a" />
+<polygon points="1450,600 1500,600 1500,650" fill="#0d4655" />
+<polygon points="1450,600 1500,650 1450,650" fill="#0b3d4a" />
+<polygon points="1500,600 1550,600 1500,650" fill="#176d80" />
+<polygon points="1550,600 1550,650 1500,650" fill="#1f7a8c" />
+<polygon points="1550,600 1600,600 1600,650" fill="#0b3d4a" />
+<polygon points="1550,600 1600,650 1550,650" fill="#0d4655" />
+<polygon points="0,650 50,650 50,700" fill="#0b3d4a" />
+<polygon points="0,650 50,700 0,700" fill="#1f7a8c" />
+<polygon points="50,650 100,650 50,700" fill="#1f7a8c" />
+<polygon points="100,650 100,700 50,700" fill="#1f7a8c" />
+<polygon points="100,650 150,650 150,700" fill="#0b3d4a" />
+<polygon points="100,650 150,700 100,700" fill="#0f4c5c" />
+<polygon points="150,650 200,650 150,700" fill="#0f4c5c" />
+<polygon points="200,650 200,700 150,700" fill="#12596b" />
+<polygon points="200,650 250,650 250,700" fill="#0d4655" />
+<polygon points="200,650 250,700 200,700" fill="#0f4c5c" />
+<polygon points="250,650 300,650 250,700" fill="#1f7a8c" />
+<polygon points="300,650 300,700 250,700" fill="#12596b" />
+<polygon points="300,650 350,650 350,700" fill="#176d80" />
+<polygon points="300,650 350,700 300,700" fill="#1f7a8c" />
+<polygon points="350,650 400,650 350,700" fill="#176d80" />
+<polygon points="400,650 400,700 350,700" fill="#0f4c5c" />
+<polygon points="400,650 450,650 450,700" fill="#0b3d4a" />
+<polygon points="400,650 450,700 400,700" fill="#1f7a8c" />
+<polygon points="450,650 500,650 450,700" fill="#176d80" />
+<polygon points="500,650 500,700 450,700" fill="#0f4c5c" />
+<polygon points="500,650 550,650 550,700" fill="#0d4655" />
+<polygon points="500,650 550,700 500,700" fill="#1f7a8c" />
+<polygon points="550,650 600,650 550,700" fill="#0b3d4a" />
+<polygon points="600,650 600,700 550,700" fill="#0f4c5c" />
+<polygon points="600,650 650,650 650,700" fill="#12596b" />
+<polygon points="600,650 650,700 600,700" fill="#176d80" />
+<polygon points="650,650 700,650 650,700" fill="#1f7a8c" />
+<polygon points="700,650 700,700 650,700" fill="#176d80" />
+<polygon points="700,650 750,650 750,700" fill="#0b3d4a" />
+<polygon points="700,650 750,700 700,700" fill="#12596b" />
+<polygon points="750,650 800,650 750,700" fill="#0f4c5c" />
+<polygon points="800,650 800,700 750,700" fill="#0d4655" />
+<polygon points="800,650 850,650 850,700" fill="#0f4c5c" />
+<polygon points="800,650 850,700 800,700" fill="#1f7a8c" />
+<polygon points="850,650 900,650 850,700" fill="#176d80" />
+<polygon points="900,650 900,700 850,700" fill="#12596b" />
+<polygon points="900,650 950,650 950,700" fill="#12596b" />
+<polygon points="900,650 950,700 900,700" fill="#0d4655" />
+<polygon points="950,650 1000,650 950,700" fill="#1f7a8c" />
+<polygon points="1000,650 1000,700 950,700" fill="#0f4c5c" />
+<polygon points="1000,650 1050,650 1050,700" fill="#0f4c5c" />
+<polygon points="1000,650 1050,700 1000,700" fill="#0d4655" />
+<polygon points="1050,650 1100,650 1050,700" fill="#176d80" />
+<polygon points="1100,650 1100,700 1050,700" fill="#176d80" />
+<polygon points="1100,650 1150,650 1150,700" fill="#0f4c5c" />
+<polygon points="1100,650 1150,700 1100,700" fill="#12596b" />
+<polygon points="1150,650 1200,650 1150,700" fill="#0f4c5c" />
+<polygon points="1200,650 1200,700 1150,700" fill="#0b3d4a" />
+<polygon points="1200,650 1250,650 1250,700" fill="#0d4655" />
+<polygon points="1200,650 1250,700 1200,700" fill="#12596b" />
+<polygon points="1250,650 1300,650 1250,700" fill="#0f4c5c" />
+<polygon points="1300,650 1300,700 1250,700" fill="#0b3d4a" />
+<polygon points="1300,650 1350,650 1350,700" fill="#176d80" />
+<polygon points="1300,650 1350,700 1300,700" fill="#12596b" />
+<polygon points="1350,650 1400,650 1350,700" fill="#1f7a8c" />
+<polygon points="1400,650 1400,700 1350,700" fill="#176d80" />
+<polygon points="1400,650 1450,650 1450,700" fill="#176d80" />
+<polygon points="1400,650 1450,700 1400,700" fill="#0d4655" />
+<polygon points="1450,650 1500,650 1450,700" fill="#0b3d4a" />
+<polygon points="1500,650 1500,700 1450,700" fill="#1f7a8c" />
+<polygon points="1500,650 1550,650 1550,700" fill="#0d4655" />
+<polygon points="1500,650 1550,700 1500,700" fill="#1f7a8c" />
+<polygon points="1550,650 1600,650 1550,700" fill="#176d80" />
+<polygon points="1600,650 1600,700 1550,700" fill="#0b3d4a" />
+<polygon points="0,700 50,700 0,750" fill="#1f7a8c" />
+<polygon points="50,700 50,750 0,750" fill="#0d4655" />
+<polygon points="50,700 100,700 100,750" fill="#12596b" />
+<polygon points="50,700 100,750 50,750" fill="#0b3d4a" />
+<polygon points="100,700 150,700 100,750" fill="#1f7a8c" />
+<polygon points="150,700 150,750 100,750" fill="#12596b" />
+<polygon points="150,700 200,700 200,750" fill="#12596b" />
+<polygon points="150,700 200,750 150,750" fill="#176d80" />
+<polygon points="200,700 250,700 200,750" fill="#0f4c5c" />
+<polygon points="250,700 250,750 200,750" fill="#0d4655" />
+<polygon points="250,700 300,700 300,750" fill="#0b3d4a" />
+<polygon points="250,700 300,750 250,750" fill="#0d4655" />
+<polygon points="300,700 350,700 300,750" fill="#0d4655" />
+<polygon points="350,700 350,750 300,750" fill="#0b3d4a" />
+<polygon points="350,700 400,700 400,750" fill="#0b3d4a" />
+<polygon points="350,700 400,750 350,750" fill="#0b3d4a" />
+<polygon points="400,700 450,700 400,750" fill="#0d4655" />
+<polygon points="450,700 450,750 400,750" fill="#1f7a8c" />
+<polygon points="450,700 500,700 500,750" fill="#1f7a8c" />
+<polygon points="450,700 500,750 450,750" fill="#0d4655" />
+<polygon points="500,700 550,700 500,750" fill="#1f7a8c" />
+<polygon points="550,700 550,750 500,750" fill="#0d4655" />
+<polygon points="550,700 600,700 600,750" fill="#12596b" />
+<polygon points="550,700 600,750 550,750" fill="#1f7a8c" />
+<polygon points="600,700 650,700 600,750" fill="#0b3d4a" />
+<polygon points="650,700 650,750 600,750" fill="#12596b" />
+<polygon points="650,700 700,700 700,750" fill="#12596b" />
+<polygon points="650,700 700,750 650,750" fill="#12596b" />
+<polygon points="700,700 750,700 700,750" fill="#0d4655" />
+<polygon points="750,700 750,750 700,750" fill="#1f7a8c" />
+<polygon points="750,700 800,700 800,750" fill="#12596b" />
+<polygon points="750,700 800,750 750,750" fill="#1f7a8c" />
+<polygon points="800,700 850,700 800,750" fill="#0f4c5c" />
+<polygon points="850,700 850,750 800,750" fill="#1f7a8c" />
+<polygon points="850,700 900,700 900,750" fill="#0f4c5c" />
+<polygon points="850,700 900,750 850,750" fill="#0f4c5c" />
+<polygon points="900,700 950,700 900,750" fill="#0b3d4a" />
+<polygon points="950,700 950,750 900,750" fill="#0b3d4a" />
+<polygon points="950,700 1000,700 1000,750" fill="#176d80" />
+<polygon points="950,700 1000,750 950,750" fill="#0f4c5c" />
+<polygon points="1000,700 1050,700 1000,750" fill="#0d4655" />
+<polygon points="1050,700 1050,750 1000,750" fill="#0f4c5c" />
+<polygon points="1050,700 1100,700 1100,750" fill="#0f4c5c" />
+<polygon points="1050,700 1100,750 1050,750" fill="#12596b" />
+<polygon points="1100,700 1150,700 1100,750" fill="#0d4655" />
+<polygon points="1150,700 1150,750 1100,750" fill="#0b3d4a" />
+<polygon points="1150,700 1200,700 1200,750" fill="#0f4c5c" />
+<polygon points="1150,700 1200,750 1150,750" fill="#0f4c5c" />
+<polygon points="1200,700 1250,700 1200,750" fill="#1f7a8c" />
+<polygon points="1250,700 1250,750 1200,750" fill="#12596b" />
+<polygon points="1250,700 1300,700 1300,750" fill="#0d4655" />
+<polygon points="1250,700 1300,750 1250,750" fill="#12596b" />
+<polygon points="1300,700 1350,700 1300,750" fill="#1f7a8c" />
+<polygon points="1350,700 1350,750 1300,750" fill="#0b3d4a" />
+<polygon points="1350,700 1400,700 1400,750" fill="#176d80" />
+<polygon points="1350,700 1400,750 1350,750" fill="#176d80" />
+<polygon points="1400,700 1450,700 1400,750" fill="#0b3d4a" />
+<polygon points="1450,700 1450,750 1400,750" fill="#12596b" />
+<polygon points="1450,700 1500,700 1500,750" fill="#0b3d4a" />
+<polygon points="1450,700 1500,750 1450,750" fill="#0b3d4a" />
+<polygon points="1500,700 1550,700 1500,750" fill="#176d80" />
+<polygon points="1550,700 1550,750 1500,750" fill="#1f7a8c" />
+<polygon points="1550,700 1600,700 1600,750" fill="#12596b" />
+<polygon points="1550,700 1600,750 1550,750" fill="#0f4c5c" />
+<polygon points="0,750 50,750 50,800" fill="#0f4c5c" />
+<polygon points="0,750 50,800 0,800" fill="#176d80" />
+<polygon points="50,750 100,750 50,800" fill="#0d4655" />
+<polygon points="100,750 100,800 50,800" fill="#12596b" />
+<polygon points="100,750 150,750 150,800" fill="#176d80" />
+<polygon points="100,750 150,800 100,800" fill="#176d80" />
+<polygon points="150,750 200,750 150,800" fill="#1f7a8c" />
+<polygon points="200,750 200,800 150,800" fill="#0b3d4a" />
+<polygon points="200,750 250,750 250,800" fill="#176d80" />
+<polygon points="200,750 250,800 200,800" fill="#12596b" />
+<polygon points="250,750 300,750 250,800" fill="#0b3d4a" />
+<polygon points="300,750 300,800 250,800" fill="#12596b" />
+<polygon points="300,750 350,750 350,800" fill="#1f7a8c" />
+<polygon points="300,750 350,800 300,800" fill="#0d4655" />
+<polygon points="350,750 400,750 350,800" fill="#0b3d4a" />
+<polygon points="400,750 400,800 350,800" fill="#0b3d4a" />
+<polygon points="400,750 450,750 450,800" fill="#0d4655" />
+<polygon points="400,750 450,800 400,800" fill="#1f7a8c" />
+<polygon points="450,750 500,750 450,800" fill="#12596b" />
+<polygon points="500,750 500,800 450,800" fill="#176d80" />
+<polygon points="500,750 550,750 550,800" fill="#1f7a8c" />
+<polygon points="500,750 550,800 500,800" fill="#0b3d4a" />
+<polygon points="550,750 600,750 550,800" fill="#0d4655" />
+<polygon points="600,750 600,800 550,800" fill="#0f4c5c" />
+<polygon points="600,750 650,750 650,800" fill="#176d80" />
+<polygon points="600,750 650,800 600,800" fill="#0b3d4a" />
+<polygon points="650,750 700,750 650,800" fill="#0f4c5c" />
+<polygon points="700,750 700,800 650,800" fill="#0d4655" />
+<polygon points="700,750 750,750 750,800" fill="#0f4c5c" />
+<polygon points="700,750 750,800 700,800" fill="#176d80" />
+<polygon points="750,750 800,750 750,800" fill="#0d4655" />
+<polygon points="800,750 800,800 750,800" fill="#0d4655" />
+<polygon points="800,750 850,750 850,800" fill="#176d80" />
+<polygon points="800,750 850,800 800,800" fill="#1f7a8c" />
+<polygon points="850,750 900,750 850,800" fill="#176d80" />
+<polygon points="900,750 900,800 850,800" fill="#0b3d4a" />
+<polygon points="900,750 950,750 950,800" fill="#0f4c5c" />
+<polygon points="900,750 950,800 900,800" fill="#0f4c5c" />
+<polygon points="950,750 1000,750 950,800" fill="#0b3d4a" />
+<polygon points="1000,750 1000,800 950,800" fill="#12596b" />
+<polygon points="1000,750 1050,750 1050,800" fill="#1f7a8c" />
+<polygon points="1000,750 1050,800 1000,800" fill="#0d4655" />
+<polygon points="1050,750 1100,750 1050,800" fill="#0f4c5c" />
+<polygon points="1100,750 1100,800 1050,800" fill="#1f7a8c" />
+<polygon points="1100,750 1150,750 1150,800" fill="#0b3d4a" />
+<polygon points="1100,750 1150,800 1100,800" fill="#176d80" />
+<polygon points="1150,750 1200,750 1150,800" fill="#1f7a8c" />
+<polygon points="1200,750 1200,800 1150,800" fill="#1f7a8c" />
+<polygon points="1200,750 1250,750 1250,800" fill="#0b3d4a" />
+<polygon points="1200,750 1250,800 1200,800" fill="#0b3d4a" />
+<polygon points="1250,750 1300,750 1250,800" fill="#12596b" />
+<polygon points="1300,750 1300,800 1250,800" fill="#12596b" />
+<polygon points="1300,750 1350,750 1350,800" fill="#0b3d4a" />
+<polygon points="1300,750 1350,800 1300,800" fill="#1f7a8c" />
+<polygon points="1350,750 1400,750 1350,800" fill="#1f7a8c" />
+<polygon points="1400,750 1400,800 1350,800" fill="#0b3d4a" />
+<polygon points="1400,750 1450,750 1450,800" fill="#0b3d4a" />
+<polygon points="1400,750 1450,800 1400,800" fill="#0f4c5c" />
+<polygon points="1450,750 1500,750 1450,800" fill="#0b3d4a" />
+<polygon points="1500,750 1500,800 1450,800" fill="#1f7a8c" />
+<polygon points="1500,750 1550,750 1550,800" fill="#176d80" />
+<polygon points="1500,750 1550,800 1500,800" fill="#0d4655" />
+<polygon points="1550,750 1600,750 1550,800" fill="#0d4655" />
+<polygon points="1600,750 1600,800 1550,800" fill="#1f7a8c" />
+<polygon points="0,800 50,800 0,850" fill="#0b3d4a" />
+<polygon points="50,800 50,850 0,850" fill="#176d80" />
+<polygon points="50,800 100,800 100,850" fill="#0d4655" />
+<polygon points="50,800 100,850 50,850" fill="#0b3d4a" />
+<polygon points="100,800 150,800 100,850" fill="#176d80" />
+<polygon points="150,800 150,850 100,850" fill="#0b3d4a" />
+<polygon points="150,800 200,800 200,850" fill="#12596b" />
+<polygon points="150,800 200,850 150,850" fill="#176d80" />
+<polygon points="200,800 250,800 200,850" fill="#1f7a8c" />
+<polygon points="250,800 250,850 200,850" fill="#0d4655" />
+<polygon points="250,800 300,800 300,850" fill="#12596b" />
+<polygon points="250,800 300,850 250,850" fill="#0f4c5c" />
+<polygon points="300,800 350,800 300,850" fill="#0b3d4a" />
+<polygon points="350,800 350,850 300,850" fill="#0b3d4a" />
+<polygon points="350,800 400,800 400,850" fill="#0f4c5c" />
+<polygon points="350,800 400,850 350,850" fill="#0b3d4a" />
+<polygon points="400,800 450,800 400,850" fill="#1f7a8c" />
+<polygon points="450,800 450,850 400,850" fill="#176d80" />
+<polygon points="450,800 500,800 500,850" fill="#0d4655" />
+<polygon points="450,800 500,850 450,850" fill="#176d80" />
+<polygon points="500,800 550,800 500,850" fill="#12596b" />
+<polygon points="550,800 550,850 500,850" fill="#1f7a8c" />
+<polygon points="550,800 600,800 600,850" fill="#0d4655" />
+<polygon points="550,800 600,850 550,850" fill="#0b3d4a" />
+<polygon points="600,800 650,800 600,850" fill="#176d80" />
+<polygon points="650,800 650,850 600,850" fill="#0d4655" />
+<polygon points="650,800 700,800 700,850" fill="#12596b" />
+<polygon points="650,800 700,850 650,850" fill="#0d4655" />
+<polygon points="700,800 750,800 700,850" fill="#0d4655" />
+<polygon points="750,800 750,850 700,850" fill="#12596b" />
+<polygon points="750,800 800,800 800,850" fill="#12596b" />
+<polygon points="750,800 800,850 750,850" fill="#0f4c5c" />
+<polygon points="800,800 850,800 800,850" fill="#176d80" />
+<polygon points="850,800 850,850 800,850" fill="#0b3d4a" />
+<polygon points="850,800 900,800 900,850" fill="#0f4c5c" />
+<polygon points="850,800 900,850 850,850" fill="#12596b" />
+<polygon points="900,800 950,800 900,850" fill="#0d4655" />
+<polygon points="950,800 950,850 900,850" fill="#0f4c5c" />
+<polygon points="950,800 1000,800 1000,850" fill="#0d4655" />
+<polygon points="950,800 1000,850 950,850" fill="#12596b" />
+<polygon points="1000,800 1050,800 1000,850" fill="#0d4655" />
+<polygon points="1050,800 1050,850 1000,850" fill="#0b3d4a" />
+<polygon points="1050,800 1100,800 1100,850" fill="#0f4c5c" />
+<polygon points="1050,800 1100,850 1050,850" fill="#1f7a8c" />
+<polygon points="1100,800 1150,800 1100,850" fill="#176d80" />
+<polygon points="1150,800 1150,850 1100,850" fill="#0f4c5c" />
+<polygon points="1150,800 1200,800 1200,850" fill="#0d4655" />
+<polygon points="1150,800 1200,850 1150,850" fill="#0d4655" />
+<polygon points="1200,800 1250,800 1200,850" fill="#0b3d4a" />
+<polygon points="1250,800 1250,850 1200,850" fill="#0d4655" />
+<polygon points="1250,800 1300,800 1300,850" fill="#0f4c5c" />
+<polygon points="1250,800 1300,850 1250,850" fill="#0b3d4a" />
+<polygon points="1300,800 1350,800 1300,850" fill="#0f4c5c" />
+<polygon points="1350,800 1350,850 1300,850" fill="#0b3d4a" />
+<polygon points="1350,800 1400,800 1400,850" fill="#1f7a8c" />
+<polygon points="1350,800 1400,850 1350,850" fill="#0f4c5c" />
+<polygon points="1400,800 1450,800 1400,850" fill="#0b3d4a" />
+<polygon points="1450,800 1450,850 1400,850" fill="#0f4c5c" />
+<polygon points="1450,800 1500,800 1500,850" fill="#0f4c5c" />
+<polygon points="1450,800 1500,850 1450,850" fill="#1f7a8c" />
+<polygon points="1500,800 1550,800 1500,850" fill="#1f7a8c" />
+<polygon points="1550,800 1550,850 1500,850" fill="#12596b" />
+<polygon points="1550,800 1600,800 1600,850" fill="#0f4c5c" />
+<polygon points="1550,800 1600,850 1550,850" fill="#1f7a8c" />
+<polygon points="0,850 50,850 50,900" fill="#1f7a8c" />
+<polygon points="0,850 50,900 0,900" fill="#176d80" />
+<polygon points="50,850 100,850 50,900" fill="#12596b" />
+<polygon points="100,850 100,900 50,900" fill="#1f7a8c" />
+<polygon points="100,850 150,850 150,900" fill="#12596b" />
+<polygon points="100,850 150,900 100,900" fill="#176d80" />
+<polygon points="150,850 200,850 150,900" fill="#0d4655" />
+<polygon points="200,850 200,900 150,900" fill="#0b3d4a" />
+<polygon points="200,850 250,850 250,900" fill="#176d80" />
+<polygon points="200,850 250,900 200,900" fill="#176d80" />
+<polygon points="250,850 300,850 250,900" fill="#0b3d4a" />
+<polygon points="300,850 300,900 250,900" fill="#0b3d4a" />
+<polygon points="300,850 350,850 350,900" fill="#0b3d4a" />
+<polygon points="300,850 350,900 300,900" fill="#1f7a8c" />
+<polygon points="350,850 400,850 350,900" fill="#12596b" />
+<polygon points="400,850 400,900 350,900" fill="#176d80" />
+<polygon points="400,850 450,850 450,900" fill="#176d80" />
+<polygon points="400,850 450,900 400,900" fill="#0d4655" />
+<polygon points="450,850 500,850 450,900" fill="#1f7a8c" />
+<polygon points="500,850 500,900 450,900" fill="#0f4c5c" />
+<polygon points="500,850 550,850 550,900" fill="#1f7a8c" />
+<polygon points="500,850 550,900 500,900" fill="#0d4655" />
+<polygon points="550,850 600,850 550,900" fill="#0f4c5c" />
+<polygon points="600,850 600,900 550,900" fill="#176d80" />
+<polygon points="600,850 650,850 650,900" fill="#1f7a8c" />
+<polygon points="600,850 650,900 600,900" fill="#0b3d4a" />
+<polygon points="650,850 700,850 650,900" fill="#0f4c5c" />
+<polygon points="700,850 700,900 650,900" fill="#176d80" />
+<polygon points="700,850 750,850 750,900" fill="#0f4c5c" />
+<polygon points="700,850 750,900 700,900" fill="#176d80" />
+<polygon points="750,850 800,850 750,900" fill="#0d4655" />
+<polygon points="800,850 800,900 750,900" fill="#1f7a8c" />
+<polygon points="800,850 850,850 850,900" fill="#0f4c5c" />
+<polygon points="800,850 850,900 800,900" fill="#0d4655" />
+<polygon points="850,850 900,850 850,900" fill="#0b3d4a" />
+<polygon points="900,850 900,900 850,900" fill="#1f7a8c" />
+<polygon points="900,850 950,850 950,900" fill="#0f4c5c" />
+<polygon points="900,850 950,900 900,900" fill="#0f4c5c" />
+<polygon points="950,850 1000,850 950,900" fill="#176d80" />
+<polygon points="1000,850 1000,900 950,900" fill="#176d80" />
+<polygon points="1000,850 1050,850 1050,900" fill="#12596b" />
+<polygon points="1000,850 1050,900 1000,900" fill="#12596b" />
+<polygon points="1050,850 1100,850 1050,900" fill="#1f7a8c" />
+<polygon points="1100,850 1100,900 1050,900" fill="#12596b" />
+<polygon points="1100,850 1150,850 1150,900" fill="#1f7a8c" />
+<polygon points="1100,850 1150,900 1100,900" fill="#176d80" />
+<polygon points="1150,850 1200,850 1150,900" fill="#1f7a8c" />
+<polygon points="1200,850 1200,900 1150,900" fill="#12596b" />
+<polygon points="1200,850 1250,850 1250,900" fill="#0b3d4a" />
+<polygon points="1200,850 1250,900 1200,900" fill="#12596b" />
+<polygon points="1250,850 1300,850 1250,900" fill="#176d80" />
+<polygon points="1300,850 1300,900 1250,900" fill="#176d80" />
+<polygon points="1300,850 1350,850 1350,900" fill="#0d4655" />
+<polygon points="1300,850 1350,900 1300,900" fill="#0b3d4a" />
+<polygon points="1350,850 1400,850 1350,900" fill="#0b3d4a" />
+<polygon points="1400,850 1400,900 1350,900" fill="#0f4c5c" />
+<polygon points="1400,850 1450,850 1450,900" fill="#176d80" />
+<polygon points="1400,850 1450,900 1400,900" fill="#0b3d4a" />
+<polygon points="1450,850 1500,850 1450,900" fill="#1f7a8c" />
+<polygon points="1500,850 1500,900 1450,900" fill="#0f4c5c" />
+<polygon points="1500,850 1550,850 1550,900" fill="#0b3d4a" />
+<polygon points="1500,850 1550,900 1500,900" fill="#1f7a8c" />
+<polygon points="1550,850 1600,850 1550,900" fill="#12596b" />
+<polygon points="1600,850 1600,900 1550,900" fill="#12596b" />
+<polygon points="0,900 50,900 0,950" fill="#0f4c5c" />
+<polygon points="50,900 50,950 0,950" fill="#176d80" />
+<polygon points="50,900 100,900 100,950" fill="#0f4c5c" />
+<polygon points="50,900 100,950 50,950" fill="#0d4655" />
+<polygon points="100,900 150,900 100,950" fill="#176d80" />
+<polygon points="150,900 150,950 100,950" fill="#0f4c5c" />
+<polygon points="150,900 200,900 200,950" fill="#0b3d4a" />
+<polygon points="150,900 200,950 150,950" fill="#0f4c5c" />
+<polygon points="200,900 250,900 200,950" fill="#12596b" />
+<polygon points="250,900 250,950 200,950" fill="#12596b" />
+<polygon points="250,900 300,900 300,950" fill="#0b3d4a" />
+<polygon points="250,900 300,950 250,950" fill="#12596b" />
+<polygon points="300,900 350,900 300,950" fill="#0d4655" />
+<polygon points="350,900 350,950 300,950" fill="#12596b" />
+<polygon points="350,900 400,900 400,950" fill="#0d4655" />
+<polygon points="350,900 400,950 350,950" fill="#1f7a8c" />
+<polygon points="400,900 450,900 400,950" fill="#176d80" />
+<polygon points="450,900 450,950 400,950" fill="#0d4655" />
+<polygon points="450,900 500,900 500,950" fill="#0d4655" />
+<polygon points="450,900 500,950 450,950" fill="#12596b" />
+<polygon points="500,900 550,900 500,950" fill="#176d80" />
+<polygon points="550,900 550,950 500,950" fill="#12596b" />
+<polygon points="550,900 600,900 600,950" fill="#0b3d4a" />
+<polygon points="550,900 600,950 550,950" fill="#176d80" />
+<polygon points="600,900 650,900 600,950" fill="#12596b" />
+<polygon points="650,900 650,950 600,950" fill="#0b3d4a" />
+<polygon points="650,900 700,900 700,950" fill="#1f7a8c" />
+<polygon points="650,900 700,950 650,950" fill="#0d4655" />
+<polygon points="700,900 750,900 700,950" fill="#0d4655" />
+<polygon points="750,900 750,950 700,950" fill="#176d80" />
+<polygon points="750,900 800,900 800,950" fill="#0b3d4a" />
+<polygon points="750,900 800,950 750,950" fill="#176d80" />
+<polygon points="800,900 850,900 800,950" fill="#176d80" />
+<polygon points="850,900 850,950 800,950" fill="#0b3d4a" />
+<polygon points="850,900 900,900 900,950" fill="#1f7a8c" />
+<polygon points="850,900 900,950 850,950" fill="#0d4655" />
+<polygon points="900,900 950,900 900,950" fill="#0f4c5c" />
+<polygon points="950,900 950,950 900,950" fill="#176d80" />
+<polygon points="950,900 1000,900 1000,950" fill="#12596b" />
+<polygon points="950,900 1000,950 950,950" fill="#176d80" />
+<polygon points="1000,900 1050,900 1000,950" fill="#0f4c5c" />
+<polygon points="1050,900 1050,950 1000,950" fill="#12596b" />
+<polygon points="1050,900 1100,900 1100,950" fill="#12596b" />
+<polygon points="1050,900 1100,950 1050,950" fill="#176d80" />
+<polygon points="1100,900 1150,900 1100,950" fill="#0d4655" />
+<polygon points="1150,900 1150,950 1100,950" fill="#0d4655" />
+<polygon points="1150,900 1200,900 1200,950" fill="#0b3d4a" />
+<polygon points="1150,900 1200,950 1150,950" fill="#0f4c5c" />
+<polygon points="1200,900 1250,900 1200,950" fill="#1f7a8c" />
+<polygon points="1250,900 1250,950 1200,950" fill="#12596b" />
+<polygon points="1250,900 1300,900 1300,950" fill="#0f4c5c" />
+<polygon points="1250,900 1300,950 1250,950" fill="#176d80" />
+<polygon points="1300,900 1350,900 1300,950" fill="#0b3d4a" />
+<polygon points="1350,900 1350,950 1300,950" fill="#176d80" />
+<polygon points="1350,900 1400,900 1400,950" fill="#12596b" />
+<polygon points="1350,900 1400,950 1350,950" fill="#1f7a8c" />
+<polygon points="1400,900 1450,900 1400,950" fill="#176d80" />
+<polygon points="1450,900 1450,950 1400,950" fill="#0d4655" />
+<polygon points="1450,900 1500,900 1500,950" fill="#12596b" />
+<polygon points="1450,900 1500,950 1450,950" fill="#176d80" />
+<polygon points="1500,900 1550,900 1500,950" fill="#12596b" />
+<polygon points="1550,900 1550,950 1500,950" fill="#0b3d4a" />
+<polygon points="1550,900 1600,900 1600,950" fill="#12596b" />
+<polygon points="1550,900 1600,950 1550,950" fill="#0b3d4a" />
+<polygon points="0,950 50,950 50,1000" fill="#0d4655" />
+<polygon points="0,950 50,1000 0,1000" fill="#12596b" />
+<polygon points="50,950 100,950 50,1000" fill="#1f7a8c" />
+<polygon points="100,950 100,1000 50,1000" fill="#1f7a8c" />
+<polygon points="100,950 150,950 150,1000" fill="#0d4655" />
+<polygon points="100,950 150,1000 100,1000" fill="#0b3d4a" />
+<polygon points="150,950 200,950 150,1000" fill="#0d4655" />
+<polygon points="200,950 200,1000 150,1000" fill="#0d4655" />
+<polygon points="200,950 250,950 250,1000" fill="#0f4c5c" />
+<polygon points="200,950 250,1000 200,1000" fill="#12596b" />
+<polygon points="250,950 300,950 250,1000" fill="#0d4655" />
+<polygon points="300,950 300,1000 250,1000" fill="#12596b" />
+<polygon points="300,950 350,950 350,1000" fill="#0f4c5c" />
+<polygon points="300,950 350,1000 300,1000" fill="#12596b" />
+<polygon points="350,950 400,950 350,1000" fill="#12596b" />
+<polygon points="400,950 400,1000 350,1000" fill="#12596b" />
+<polygon points="400,950 450,950 450,1000" fill="#0f4c5c" />
+<polygon points="400,950 450,1000 400,1000" fill="#0b3d4a" />
+<polygon points="450,950 500,950 450,1000" fill="#0b3d4a" />
+<polygon points="500,950 500,1000 450,1000" fill="#0d4655" />
+<polygon points="500,950 550,950 550,1000" fill="#1f7a8c" />
+<polygon points="500,950 550,1000 500,1000" fill="#0d4655" />
+<polygon points="550,950 600,950 550,1000" fill="#0f4c5c" />
+<polygon points="600,950 600,1000 550,1000" fill="#176d80" />
+<polygon points="600,950 650,950 650,1000" fill="#1f7a8c" />
+<polygon points="600,950 650,1000 600,1000" fill="#176d80" />
+<polygon points="650,950 700,950 650,1000" fill="#0f4c5c" />
+<polygon points="700,950 700,1000 650,1000" fill="#1f7a8c" />
+<polygon points="700,950 750,950 750,1000" fill="#0d4655" />
+<polygon points="700,950 750,1000 700,1000" fill="#0d4655" />
+<polygon points="750,950 800,950 750,1000" fill="#0d4655" />
+<polygon points="800,950 800,1000 750,1000" fill="#0b3d4a" />
+<polygon points="800,950 850,950 850,1000" fill="#0f4c5c" />
+<polygon points="800,950 850,1000 800,1000" fill="#12596b" />
+<polygon points="850,950 900,950 850,1000" fill="#176d80" />
+<polygon points="900,950 900,1000 850,1000" fill="#12596b" />
+<polygon points="900,950 950,950 950,1000" fill="#1f7a8c" />
+<polygon points="900,950 950,1000 900,1000" fill="#0f4c5c" />
+<polygon points="950,950 1000,950 950,1000" fill="#176d80" />
+<polygon points="1000,950 1000,1000 950,1000" fill="#12596b" />
+<polygon points="1000,950 1050,950 1050,1000" fill="#0f4c5c" />
+<polygon points="1000,950 1050,1000 1000,1000" fill="#0d4655" />
+<polygon points="1050,950 1100,950 1050,1000" fill="#176d80" />
+<polygon points="1100,950 1100,1000 1050,1000" fill="#0d4655" />
+<polygon points="1100,950 1150,950 1150,1000" fill="#176d80" />
+<polygon points="1100,950 1150,1000 1100,1000" fill="#12596b" />
+<polygon points="1150,950 1200,950 1150,1000" fill="#0b3d4a" />
+<polygon points="1200,950 1200,1000 1150,1000" fill="#0b3d4a" />
+<polygon points="1200,950 1250,950 1250,1000" fill="#0b3d4a" />
+<polygon points="1200,950 1250,1000 1200,1000" fill="#176d80" />
+<polygon points="1250,950 1300,950 1250,1000" fill="#0f4c5c" />
+<polygon points="1300,950 1300,1000 1250,1000" fill="#0d4655" />
+<polygon points="1300,950 1350,950 1350,1000" fill="#0b3d4a" />
+<polygon points="1300,950 1350,1000 1300,1000" fill="#176d80" />
+<polygon points="1350,950 1400,950 1350,1000" fill="#1f7a8c" />
+<polygon points="1400,950 1400,1000 1350,1000" fill="#1f7a8c" />
+<polygon points="1400,950 1450,950 1450,1000" fill="#0f4c5c" />
+<polygon points="1400,950 1450,1000 1400,1000" fill="#0b3d4a" />
+<polygon points="1450,950 1500,950 1450,1000" fill="#0f4c5c" />
+<polygon points="1500,950 1500,1000 1450,1000" fill="#1f7a8c" />
+<polygon points="1500,950 1550,950 1550,1000" fill="#12596b" />
+<polygon points="1500,950 1550,1000 1500,1000" fill="#0f4c5c" />
+<polygon points="1550,950 1600,950 1550,1000" fill="#1f7a8c" />
+<polygon points="1600,950 1600,1000 1550,1000" fill="#176d80" />
+<circle cx="800" cy="470" r="430" fill="#fb8b24" />
+<circle cx="800" cy="470" r="380" fill="#f5a142" />
+<circle cx="800" cy="470" r="330" fill="#fb8b24" />
+<circle cx="800" cy="470" r="290" fill="#e36414" />
+<line x1="1100" y1="470" x2="1225" y2="470" stroke="#9a031e" stroke-width="7"/>
+<line x1="1095.4" y1="522.1" x2="1218.5" y2="543.8" stroke="#9a031e" stroke-width="7"/>
+<line x1="1081.9" y1="572.6" x2="1199.4" y2="615.4" stroke="#9a031e" stroke-width="7"/>
+<line x1="1059.8" y1="620" x2="1168.1" y2="682.5" stroke="#9a031e" stroke-width="7"/>
+<line x1="1029.8" y1="662.8" x2="1125.6" y2="743.2" stroke="#9a031e" stroke-width="7"/>
+<line x1="992.8" y1="699.8" x2="1073.2" y2="795.6" stroke="#9a031e" stroke-width="7"/>
+<line x1="950" y1="729.8" x2="1012.5" y2="838.1" stroke="#9a031e" stroke-width="7"/>
+<line x1="902.6" y1="751.9" x2="945.4" y2="869.4" stroke="#9a031e" stroke-width="7"/>
+<line x1="852.1" y1="765.4" x2="873.8" y2="888.5" stroke="#9a031e" stroke-width="7"/>
+<line x1="800" y1="770" x2="800" y2="895" stroke="#9a031e" stroke-width="7"/>
+<line x1="747.9" y1="765.4" x2="726.2" y2="888.5" stroke="#9a031e" stroke-width="7"/>
+<line x1="697.4" y1="751.9" x2="654.6" y2="869.4" stroke="#9a031e" stroke-width="7"/>
+<line x1="650" y1="729.8" x2="587.5" y2="838.1" stroke="#9a031e" stroke-width="7"/>
+<line x1="607.2" y1="699.8" x2="526.8" y2="795.6" stroke="#9a031e" stroke-width="7"/>
+<line x1="570.2" y1="662.8" x2="474.4" y2="743.2" stroke="#9a031e" stroke-width="7"/>
+<line x1="540.2" y1="620" x2="431.9" y2="682.5" stroke="#9a031e" stroke-width="7"/>
+<line x1="518.1" y1="572.6" x2="400.6" y2="615.4" stroke="#9a031e" stroke-width="7"/>
+<line x1="504.6" y1="522.1" x2="381.5" y2="543.8" stroke="#9a031e" stroke-width="7"/>
+<line x1="500" y1="470" x2="375" y2="470" stroke="#9a031e" stroke-width="7"/>
+<line x1="504.6" y1="417.9" x2="381.5" y2="396.2" stroke="#9a031e" stroke-width="7"/>
+<line x1="518.1" y1="367.4" x2="400.6" y2="324.6" stroke="#9a031e" stroke-width="7"/>
+<line x1="540.2" y1="320" x2="431.9" y2="257.5" stroke="#9a031e" stroke-width="7"/>
+<line x1="570.2" y1="277.2" x2="474.4" y2="196.8" stroke="#9a031e" stroke-width="7"/>
+<line x1="607.2" y1="240.2" x2="526.8" y2="144.4" stroke="#9a031e" stroke-width="7"/>
+<line x1="650" y1="210.2" x2="587.5" y2="101.9" stroke="#9a031e" stroke-width="7"/>
+<line x1="697.4" y1="188.1" x2="654.6" y2="70.6" stroke="#9a031e" stroke-width="7"/>
+<line x1="747.9" y1="174.6" x2="726.2" y2="51.5" stroke="#9a031e" stroke-width="7"/>
+<line x1="800" y1="170" x2="800" y2="45" stroke="#9a031e" stroke-width="7"/>
+<line x1="852.1" y1="174.6" x2="873.8" y2="51.5" stroke="#9a031e" stroke-width="7"/>
+<line x1="902.6" y1="188.1" x2="945.4" y2="70.6" stroke="#9a031e" stroke-width="7"/>
+<line x1="950" y1="210.2" x2="1012.5" y2="101.9" stroke="#9a031e" stroke-width="7"/>
+<line x1="992.8" y1="240.2" x2="1073.2" y2="144.4" stroke="#9a031e" stroke-width="7"/>
+<line x1="1029.8" y1="277.2" x2="1125.6" y2="196.8" stroke="#9a031e" stroke-width="7"/>
+<line x1="1059.8" y1="320" x2="1168.1" y2="257.5" stroke="#9a031e" stroke-width="7"/>
+<line x1="1081.9" y1="367.4" x2="1199.4" y2="324.6" stroke="#9a031e" stroke-width="7"/>
+<line x1="1095.4" y1="417.9" x2="1218.5" y2="396.2" stroke="#9a031e" stroke-width="7"/>
+<circle cx="1232.3" cy="152.1" r="7.1" fill="#fb8b24" />
+<circle cx="486.1" cy="144.3" r="9.4" fill="#e36414" />
+<circle cx="354.2" cy="606.8" r="6" fill="#fb8b24" />
+<circle cx="1464.9" cy="729.8" r="10.7" fill="#fb8b24" />
+<circle cx="326.8" cy="386.4" r="4.8" fill="#fb8b24" />
+<circle cx="1476.5" cy="557.8" r="9.1" fill="#fb8b24" />
+<circle cx="194.8" cy="612" r="4.9" fill="#e36414" />
+<circle cx="384.4" cy="184.5" r="4.9" fill="#fb8b24" />
+<circle cx="1291.4" cy="892.7" r="5" fill="#f6e7cb" />
+<circle cx="1205.6" cy="795.4" r="6.7" fill="#fb8b24" />
+<circle cx="1440.4" cy="613.2" r="9.1" fill="#e36414" />
+<circle cx="1103.8" cy="943.4" r="9.5" fill="#e36414" />
+<circle cx="1538" cy="527.5" r="5.8" fill="#f6e7cb" />
+<circle cx="201.5" cy="387.4" r="7.6" fill="#fb8b24" />
+<circle cx="1294.3" cy="602.5" r="5.1" fill="#e36414" />
+<circle cx="1412.6" cy="544.4" r="6.5" fill="#e36414" />
+<circle cx="341.2" cy="898.8" r="11" fill="#e36414" />
+<circle cx="1310" cy="221.4" r="10.6" fill="#e36414" />
+<circle cx="247.1" cy="479.7" r="6.9" fill="#fb8b24" />
+<circle cx="540.4" cy="894.7" r="6.5" fill="#fb8b24" />
+<circle cx="1382.1" cy="456.1" r="9.1" fill="#f6e7cb" />
+<circle cx="1414.2" cy="540" r="7.9" fill="#e36414" />
+<circle cx="1430.9" cy="195.1" r="9.2" fill="#fb8b24" />
+<circle cx="1293.5" cy="305.5" r="10.3" fill="#f6e7cb" />
+<circle cx="292.1" cy="589.8" r="9.7" fill="#fb8b24" />
+<circle cx="88.7" cy="205.7" r="10.9" fill="#e36414" />
+<circle cx="250.1" cy="735.6" r="9.9" fill="#fb8b24" />
+<circle cx="1200.3" cy="185.9" r="6.9" fill="#f6e7cb" />
+<circle cx="257.3" cy="395.5" r="8" fill="#f6e7cb" />
+<circle cx="411.1" cy="897.2" r="4.4" fill="#f6e7cb" />
+<circle cx="195.8" cy="357.8" r="10.3" fill="#e36414" />
+<circle cx="468" cy="858" r="7.2" fill="#e36414" />
+<circle cx="527.4" cy="90.3" r="9.1" fill="#fb8b24" />
+<circle cx="229.2" cy="451.2" r="7.5" fill="#fb8b24" />
+<circle cx="1518.3" cy="477.7" r="4.7" fill="#f6e7cb" />
+</g>
+<g id="hair-back" data-role="subject" >
+<path d="M560,430 C540,250 650,160 800,160 C960,160 1070,260 1050,440 C1110,560 1180,640 1260,700 C1150,720 1060,660 1010,600 C960,760 640,760 590,600 C540,660 470,700 380,690 C470,630 540,560 560,430Z" fill="#5f0f40" />
+<path d="M600,230 C427.2,350 400.1,542 340.1,702" fill="none" stroke="#8a1c5c" stroke-width="8" stroke-linecap="round"/>
+<path d="M608.9,227.9 C444.9,347.9 316.3,541.1 256.3,701.1" fill="none" stroke="#4a0a31" stroke-width="8" stroke-linecap="round"/>
+<path d="M617.8,225.8 C468.2,345.8 360.6,476.9 300.6,636.9" fill="none" stroke="#8a1c5c" stroke-width="4" stroke-linecap="round"/>
+<path d="M626.7,223.8 C551.8,343.8 525,554.7 465,714.7" fill="none" stroke="#4a0a31" stroke-width="4" stroke-linecap="round"/>
+<path d="M635.6,221.7 C572.7,341.7 490.4,543.7 430.4,703.7" fill="none" stroke="#7b1452" stroke-width="4" stroke-linecap="round"/>
+<path d="M644.4,219.7 C520.8,339.7 467.5,502.7 407.5,662.7" fill="none" stroke="#7b1452" stroke-width="6" stroke-linecap="round"/>
+<path d="M653.3,217.8 C556.6,337.8 421,470.1 361,630.1" fill="none" stroke="#4a0a31" stroke-width="6" stroke-linecap="round"/>
+<path d="M662.2,215.9 C490.1,335.9 514.5,505.7 454.5,665.7" fill="none" stroke="#4a0a31" stroke-width="4" stroke-linecap="round"/>
+<path d="M671.1,214.1 C528,334.1 546.5,554.4 486.5,714.4" fill="none" stroke="#8a1c5c" stroke-width="4" stroke-linecap="round"/>
+<path d="M680,212.4 C512.1,332.4 530.5,552.7 470.5,712.7" fill="none" stroke="#8a1c5c" stroke-width="4" stroke-linecap="round"/>
+<path d="M688.9,210.7 C561.7,330.7 469.1,528.4 409.1,688.4" fill="none" stroke="#7b1452" stroke-width="4" stroke-linecap="round"/>
+<path d="M697.8,209.2 C559.8,329.2 408.9,565.8 348.9,725.8" fill="none" stroke="#a4286a" stroke-width="8" stroke-linecap="round"/>
+<path d="M706.7,207.7 C613.8,327.7 446.8,562.3 386.8,722.3" fill="none" stroke="#4a0a31" stroke-width="8" stroke-linecap="round"/>
+<path d="M715.6,206.4 C540.7,326.4 442.2,473.3 382.2,633.3" fill="none" stroke="#4a0a31" stroke-width="6" stroke-linecap="round"/>
+<path d="M724.4,205.1 C627.6,325.1 627.1,456.4 567.1,616.4" fill="none" stroke="#7b1452" stroke-width="6" stroke-linecap="round"/>
+<path d="M733.3,204 C593.6,324 613.5,457 553.5,617" fill="none" stroke="#a4286a" stroke-width="6" stroke-linecap="round"/>
+<path d="M742.2,203 C668.3,323 485.4,496.5 425.4,656.5" fill="none" stroke="#7b1452" stroke-width="6" stroke-linecap="round"/>
+<path d="M751.1,202.2 C664,322.2 474.1,447.5 414.1,607.5" fill="none" stroke="#7b1452" stroke-width="8" stroke-linecap="round"/>
+<path d="M760,201.5 C690.8,321.5 533.1,486.2 473.1,646.2" fill="none" stroke="#8a1c5c" stroke-width="8" stroke-linecap="round"/>
+<path d="M768.9,200.9 C638.5,320.9 489.3,421.9 429.3,581.9" fill="none" stroke="#a4286a" stroke-width="6" stroke-linecap="round"/>
+<path d="M777.8,200.5 C683.6,320.5 521.1,432.7 461.1,592.7" fill="none" stroke="#7b1452" stroke-width="4" stroke-linecap="round"/>
+<path d="M786.7,200.2 C723.2,320.2 667.2,523 607.2,683" fill="none" stroke="#7b1452" stroke-width="4" stroke-linecap="round"/>
+<path d="M795.6,200 C665.4,320 578.7,548.3 518.7,708.3" fill="none" stroke="#8a1c5c" stroke-width="6" stroke-linecap="round"/>
+<path d="M804.4,200 C957.7,320 897.7,429 957.7,589" fill="none" stroke="#a4286a" stroke-width="6" stroke-linecap="round"/>
+<path d="M813.3,200.2 C935.3,320.2 1038.2,529.8 1098.2,689.8" fill="none" stroke="#7b1452" stroke-width="8" stroke-linecap="round"/>
+<path d="M822.2,200.5 C955.2,320.5 1073.7,443.6 1133.7,603.6" fill="none" stroke="#7b1452" stroke-width="8" stroke-linecap="round"/>
+<path d="M831.1,200.9 C985.5,320.9 1008,529.1 1068,689.1" fill="none" stroke="#7b1452" stroke-width="6" stroke-linecap="round"/>
+<path d="M840,201.5 C969.6,321.5 1027.6,452.4 1087.6,612.4" fill="none" stroke="#4a0a31" stroke-width="6" stroke-linecap="round"/>
+<path d="M848.9,202.2 C994.7,322.2 936.7,505.7 996.7,665.7" fill="none" stroke="#4a0a31" stroke-width="4" stroke-linecap="round"/>
+<path d="M857.8,203 C990.8,323 1009.3,508.2 1069.3,668.2" fill="none" stroke="#4a0a31" stroke-width="8" stroke-linecap="round"/>
+<path d="M866.7,204 C1022.5,324 1043.8,460.8 1103.8,620.8" fill="none" stroke="#8a1c5c" stroke-width="4" stroke-linecap="round"/>
+<path d="M875.6,205.1 C1000.7,325.1 1155.2,504.8 1215.2,664.8" fill="none" stroke="#7b1452" stroke-width="8" stroke-linecap="round"/>
+<path d="M884.4,206.4 C949.5,326.4 996.6,469.9 1056.6,629.9" fill="none" stroke="#a4286a" stroke-width="8" stroke-linecap="round"/>
+<path d="M893.3,207.7 C1045.2,327.7 1135.8,537 1195.8,697" fill="none" stroke="#4a0a31" stroke-width="4" stroke-linecap="round"/>
+<path d="M902.2,209.2 C1007.7,329.2 1125.2,500.6 1185.2,660.6" fill="none" stroke="#7b1452" stroke-width="4" stroke-linecap="round"/>
+<path d="M911.1,210.7 C1042.6,330.7 1100.4,523 1160.4,683" fill="none" stroke="#4a0a31" stroke-width="4" stroke-linecap="round"/>
+<path d="M920,212.4 C1063.8,332.4 1069.5,497.7 1129.5,657.7" fill="none" stroke="#8a1c5c" stroke-width="4" stroke-linecap="round"/>
+<path d="M928.9,214.1 C1107.2,334.1 1116.6,540.7 1176.6,700.7" fill="none" stroke="#7b1452" stroke-width="8" stroke-linecap="round"/>
+<path d="M937.8,215.9 C1002.5,335.9 1117.9,540.2 1177.9,700.2" fill="none" stroke="#7b1452" stroke-width="6" stroke-linecap="round"/>
+<path d="M946.7,217.8 C1053.8,337.8 1222.5,457.6 1282.5,617.6" fill="none" stroke="#a4286a" stroke-width="6" stroke-linecap="round"/>
+<path d="M955.6,219.7 C1019.7,339.7 1128.9,450.4 1188.9,610.4" fill="none" stroke="#7b1452" stroke-width="6" stroke-linecap="round"/>
+<path d="M964.4,221.7 C1053.4,341.7 1100.2,519 1160.2,679" fill="none" stroke="#4a0a31" stroke-width="4" stroke-linecap="round"/>
+<path d="M973.3,223.8 C1073.8,343.8 1258.5,494.7 1318.5,654.7" fill="none" stroke="#7b1452" stroke-width="4" stroke-linecap="round"/>
+<path d="M982.2,225.8 C1161.6,345.8 1097.5,527.8 1157.5,687.8" fill="none" stroke="#a4286a" stroke-width="8" stroke-linecap="round"/>
+<path d="M991.1,227.9 C1122,347.9 1223.9,568.9 1283.9,728.9" fill="none" stroke="#7b1452" stroke-width="6" stroke-linecap="round"/>
+<path d="M1000,230 C1085.6,350 1269.2,581 1329.2,741" fill="none" stroke="#4a0a31" stroke-width="4" stroke-linecap="round"/>
+</g>
+<g id="body" data-role="subject" >
+<path d="M560,1000 C580,860 680,790 800,790 C920,790 1020,860 1040,1000Z" fill="#9a031e" />
+<path d="M740,640 L740,800 C760,830 840,830 860,800 L860,640Z" fill="#b5653f" />
+<circle cx="620" cy="868" r="10" fill="#fb8b24" />
+<circle cx="665" cy="886" r="10" fill="#fb8b24" />
+<circle cx="710" cy="904" r="10" fill="#fb8b24" />
+<circle cx="755" cy="922" r="10" fill="#fb8b24" />
+<circle cx="800" cy="940" r="10" fill="#fb8b24" />
+<circle cx="845" cy="922" r="10" fill="#fb8b24" />
+<circle cx="890" cy="904" r="10" fill="#fb8b24" />
+<circle cx="935" cy="886" r="10" fill="#fb8b24" />
+<circle cx="980" cy="868" r="10" fill="#fb8b24" />
+</g>
+<g id="face" data-role="subject" >
+<ellipse cx="800" cy="470" rx="152" ry="196" fill="#c8794f" />
+<ellipse cx="712" cy="540" rx="34" ry="20" fill="#d9895e" />
+<ellipse cx="888" cy="540" rx="34" ry="20" fill="#d9895e" />
+<path d="M800,450 C790,500 776,530 790,545 C800,552 812,548 816,540" fill="none" stroke="#8c4a2b" stroke-width="5" stroke-linecap="round"/>
+<path d="M752,590 C780,575 820,575 848,590 C820,615 780,615 752,590Z" fill="#9a031e" />
+<path d="M752,590 C785,598 815,598 848,590" fill="none" stroke="#5f0f40" stroke-width="3"/>
+</g>
+<g id="eyeL-white" data-role="eye-white" >
+<ellipse cx="738" cy="452" rx="40" ry="21" fill="#fbf6ee" />
+</g>
+<g id="eyeL-iris" data-role="eye-iris" >
+<circle cx="738" cy="452" r="16" fill="#6b3e1f" />
+<circle cx="738" cy="452" r="9.9" fill="#4a2a12" />
+<circle cx="738" cy="452" r="6.1" fill="#120c08" />
+<circle cx="732.4" cy="446.4" r="3.5" fill="#ffffff" />
+</g>
+<g id="eyeL-lid" data-role="eye-lid" style="display:none">
+<ellipse cx="738" cy="452" rx="44" ry="25" fill="#c8794f" />
+<path d="M696,463.6 Q738,480.4 780,463.6" fill="none" stroke="#2b1208" stroke-width="5" stroke-linecap="round"/>
+</g>
+<g id="eyeR-white" data-role="eye-white" >
+<ellipse cx="862" cy="452" rx="40" ry="21" fill="#fbf6ee" />
+</g>
+<g id="eyeR-iris" data-role="eye-iris" >
+<circle cx="862" cy="452" r="16" fill="#6b3e1f" />
+<circle cx="862" cy="452" r="9.9" fill="#4a2a12" />
+<circle cx="862" cy="452" r="6.1" fill="#120c08" />
+<circle cx="856.4" cy="446.4" r="3.5" fill="#ffffff" />
+</g>
+<g id="eyeR-lid" data-role="eye-lid" style="display:none">
+<ellipse cx="862" cy="452" rx="44" ry="25" fill="#c8794f" />
+<path d="M820,463.6 Q862,480.4 904,463.6" fill="none" stroke="#2b1208" stroke-width="5" stroke-linecap="round"/>
+</g>
+<g id="eye-lines" data-role="subject" >
+<path d="M694,448 Q738,418 782,448" fill="none" stroke="#2b1208" stroke-width="6" stroke-linecap="round"/>
+<path d="M818,448 Q862,418 906,448" fill="none" stroke="#2b1208" stroke-width="6" stroke-linecap="round"/>
+<path d="M692,400 Q738,382 784,402" fill="none" stroke="#3d1a0c" stroke-width="9" stroke-linecap="round"/>
+<path d="M816,400 Q862,382 908,402" fill="none" stroke="#3d1a0c" stroke-width="9" stroke-linecap="round"/>
+</g>
+<g id="hair-front" data-role="subject" >
+<path d="M640,330 C680,220 920,210 960,330 C900,280 860,300 820,330 C790,290 740,280 700,320 C690,300 660,310 640,330Z" fill="#5f0f40" />
+<path d="M650,282 Q670,300 648.6156902964299,326.94824147917177" fill="none" stroke="#a4286a" stroke-width="4" stroke-linecap="round"/>
+<path d="M670,278 Q690,300 667.3443772772782,330.99100542130356" fill="none" stroke="#a4286a" stroke-width="4" stroke-linecap="round"/>
+<path d="M690,274 Q710,300 686.5547491551006,324.0728879571291" fill="none" stroke="#a4286a" stroke-width="4" stroke-linecap="round"/>
+<path d="M710,270 Q730,300 708.578148363199,329.3542256593107" fill="none" stroke="#a4286a" stroke-width="4" stroke-linecap="round"/>
+<path d="M730,266 Q750,300 732.3416371561786,328.9422012105905" fill="none" stroke="#a4286a" stroke-width="4" stroke-linecap="round"/>
+<path d="M750,262 Q770,300 779.732707329587,333.58391719782344" fill="none" stroke="#a4286a" stroke-width="4" stroke-linecap="round"/>
+<path d="M770,258 Q790,300 794.5089821479033,324.0916746169813" fill="none" stroke="#a4286a" stroke-width="4" stroke-linecap="round"/>
+<path d="M790,254 Q810,300 795.3184275088246,321.4556637476627" fill="none" stroke="#a4286a" stroke-width="4" stroke-linecap="round"/>
+<path d="M810,250 Q830,300 827.6542047490165,327.2563458902724" fill="none" stroke="#a4286a" stroke-width="4" stroke-linecap="round"/>
+<path d="M830,254 Q850,300 830.9807671967058,320.37131063921794" fill="none" stroke="#a4286a" stroke-width="4" stroke-linecap="round"/>
+<path d="M850,258 Q870,300 847.2819476549676,325.24672754289656" fill="none" stroke="#a4286a" stroke-width="4" stroke-linecap="round"/>
+<path d="M870,262 Q890,300 875.7183616064111,338.47125584624087" fill="none" stroke="#a4286a" stroke-width="4" stroke-linecap="round"/>
+<path d="M890,266 Q910,300 908.6076990418255,325.3724411284043" fill="none" stroke="#a4286a" stroke-width="4" stroke-linecap="round"/>
+<path d="M910,270 Q930,300 914.4439059666533,323.0703767728916" fill="none" stroke="#a4286a" stroke-width="4" stroke-linecap="round"/>
+<path d="M930,274 Q950,300 957.4652534058289,327.1947556938365" fill="none" stroke="#a4286a" stroke-width="4" stroke-linecap="round"/>
+<path d="M950,278 Q970,300 970.627499890589,334.469076818128" fill="none" stroke="#a4286a" stroke-width="4" stroke-linecap="round"/>
+</g>
+<g id="leaves" data-role="foreground" >
+<path d="M80,1000 Q66.2,811.7 -25.2,646.5 Q-11.4,834.8 80,1000Z" fill="#1b4332" />
+<path d="M80,1000 L-25.2,646.5" fill="none" stroke="#95d5b2" stroke-width="3"/>
+<path d="M80,1000 Q117.3,816.7 55.1,640.2 Q17.8,823.6 80,1000Z" fill="#52b788" />
+<path d="M80,1000 L55.1,640.2" fill="none" stroke="#95d5b2" stroke-width="3"/>
+<path d="M80,1000 Q158.8,860.7 124.9,704.4 Q46.2,843.6 80,1000Z" fill="#2d6a4f" />
+<path d="M80,1000 L124.9,704.4" fill="none" stroke="#95d5b2" stroke-width="3"/>
+<path d="M80,1000 Q183.4,881.3 187.4,723.9 Q83.9,842.6 80,1000Z" fill="#52b788" />
+<path d="M80,1000 L187.4,723.9" fill="none" stroke="#95d5b2" stroke-width="3"/>
+<path d="M80,1000 Q189.8,914.1 227.6,780 Q117.8,865.9 80,1000Z" fill="#40916c" />
+<path d="M80,1000 L227.6,780" fill="none" stroke="#95d5b2" stroke-width="3"/>
+<path d="M80,1000 Q207.9,943.1 271.2,818.3 Q143.3,875.2 80,1000Z" fill="#52b788" />
+<path d="M80,1000 L271.2,818.3" fill="none" stroke="#95d5b2" stroke-width="3"/>
+<path d="M80,1000 Q244.5,965.8 352.3,836.8 Q187.7,871 80,1000Z" fill="#1b4332" />
+<path d="M80,1000 L352.3,836.8" fill="none" stroke="#95d5b2" stroke-width="3"/>
+<path d="M1520,1000 Q1417,881.5 1263.4,849.1 Q1366.4,967.6 1520,1000Z" fill="#52b788" />
+<path d="M1520,1000 L1263.4,849.1" fill="none" stroke="#95d5b2" stroke-width="3"/>
+<path d="M1520,1000 Q1449,872.7 1317.1,810.4 Q1388.2,937.7 1520,1000Z" fill="#1b4332" />
+<path d="M1520,1000 L1317.1,810.4" fill="none" stroke="#95d5b2" stroke-width="3"/>
+<path d="M1520,1000 Q1469.8,838 1337.2,732.3 Q1387.4,894.3 1520,1000Z" fill="#40916c" />
+<path d="M1520,1000 L1337.2,732.3" fill="none" stroke="#95d5b2" stroke-width="3"/>
+<path d="M1520,1000 Q1518.1,835.8 1406.6,715.4 Q1408.4,879.6 1520,1000Z" fill="#40916c" />
+<path d="M1520,1000 L1406.6,715.4" fill="none" stroke="#95d5b2" stroke-width="3"/>
+<path d="M1520,1000 Q1546,857.9 1476.8,731.1 Q1450.9,873.2 1520,1000Z" fill="#40916c" />
+<path d="M1520,1000 L1476.8,731.1" fill="none" stroke="#95d5b2" stroke-width="3"/>
+<path d="M1520,1000 Q1587,865.4 1536.8,723.7 Q1469.9,858.3 1520,1000Z" fill="#52b788" />
+<path d="M1520,1000 L1536.8,723.7" fill="none" stroke="#95d5b2" stroke-width="3"/>
+<path d="M1520,1000 Q1621,858.5 1610.9,684.9 Q1509.9,826.4 1520,1000Z" fill="#1b4332" />
+<path d="M1520,1000 L1610.9,684.9" fill="none" stroke="#95d5b2" stroke-width="3"/>
+</g>
+<g id="petals" data-role="foreground" >
+<circle cx="1031" cy="116.2" r="13" fill="#ffd6a5" />
+<circle cx="1072.5" cy="619.9" r="13.7" fill="#fb8b24" />
+<circle cx="417.8" cy="591.3" r="7.6" fill="#fb8b24" />
+<circle cx="252.5" cy="474.1" r="10.4" fill="#fb8b24" />
+<circle cx="489.8" cy="650.8" r="8.6" fill="#fb8b24" />
+<circle cx="370.8" cy="705.4" r="9.5" fill="#ffd6a5" />
+<circle cx="425.3" cy="138.2" r="9.4" fill="#fb8b24" />
+<circle cx="1238" cy="461.8" r="8.8" fill="#ffd6a5" />
+<circle cx="524.3" cy="828.2" r="13.3" fill="#f6e7cb" />
+<circle cx="604.6" cy="112.9" r="9.8" fill="#f6e7cb" />
+<circle cx="623.1" cy="771.3" r="9.1" fill="#ffd6a5" />
+<circle cx="548.8" cy="272.8" r="7.2" fill="#fb8b24" />
+<circle cx="545.9" cy="373.5" r="9.1" fill="#ffd6a5" />
+<circle cx="1357.4" cy="599.5" r="9.7" fill="#fb8b24" />
+<circle cx="1454.7" cy="364.6" r="11" fill="#f6e7cb" />
+<circle cx="1190.9" cy="587" r="11.3" fill="#fb8b24" />
+<circle cx="962.5" cy="113.4" r="7.5" fill="#fb8b24" />
+<circle cx="1346.8" cy="380.8" r="13.4" fill="#f6e7cb" />
+<circle cx="1237.5" cy="634.1" r="8.9" fill="#fb8b24" />
+<circle cx="599" cy="880.7" r="8" fill="#f6e7cb" />
+<circle cx="468.5" cy="276.8" r="8.5" fill="#ffd6a5" />
+<circle cx="81.3" cy="516.8" r="9.8" fill="#f6e7cb" />
+<circle cx="867.7" cy="773.1" r="12.4" fill="#f6e7cb" />
+<circle cx="979.1" cy="531" r="12.8" fill="#fb8b24" />
+<circle cx="460.3" cy="147.3" r="7.1" fill="#ffd6a5" />
+<circle cx="379.5" cy="392.8" r="8.1" fill="#f6e7cb" />
+</g>
+</svg>

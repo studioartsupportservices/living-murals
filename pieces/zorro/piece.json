@@ -1,0 +1,249 @@
+{
+  "id": "zorro",
+  "size": [
+    1600,
+    1000
+  ],
+  "master": "art.svg",
+  "title": "Zorro de medianoche",
+  "artist": "Dina Saadi Studio",
+  "placeholder": true,
+  "year": 2026,
+  "location": {
+    "label": "Test wall",
+    "lat": null,
+    "lng": null
+  },
+  "palette": [
+    "#1b1f3b",
+    "#f4845f",
+    "#e76f51",
+    "#2a9d8f",
+    "#ffd166"
+  ],
+  "layers": [
+    {
+      "id": "bg",
+      "depth": 0
+    },
+    {
+      "id": "tail",
+      "depth": 0.03,
+      "anim": [
+        {
+          "type": "sway",
+          "root": [
+            930,
+            830
+          ],
+          "dir": [
+            1,
+            -0.6
+          ],
+          "length": 330,
+          "amp": 26,
+          "speed": 0.8
+        },
+        {
+          "type": "flow",
+          "amp": 3,
+          "speed": 1.2,
+          "scale": 22,
+          "root": [
+            930,
+            830
+          ],
+          "length": 330
+        }
+      ]
+    },
+    {
+      "id": "body",
+      "depth": 0.035,
+      "anim": [
+        {
+          "type": "breathe",
+          "amp": 0.012,
+          "speed": 0.6,
+          "pivot": [
+            790,
+            900
+          ]
+        }
+      ]
+    },
+    {
+      "id": "head",
+      "depth": 0.045
+    },
+    {
+      "id": "fur",
+      "depth": 0.047,
+      "anim": [
+        {
+          "type": "flow",
+          "amp": 4,
+          "speed": 1.7,
+          "scale": 34,
+          "root": [
+            790,
+            450
+          ],
+          "length": 220
+        }
+      ]
+    },
+    {
+      "id": "eyeL-white",
+      "depth": 0.048
+    },
+    {
+      "id": "eyeL-iris",
+      "depth": 0.049
+    },
+    {
+      "id": "eyeL-lid",
+      "depth": 0.05
+    },
+    {
+      "id": "eyeR-white",
+      "depth": 0.048
+    },
+    {
+      "id": "eyeR-iris",
+      "depth": 0.049
+    },
+    {
+      "id": "eyeR-lid",
+      "depth": 0.05
+    },
+    {
+      "id": "eye-lines",
+      "depth": 0.051
+    },
+    {
+      "id": "grass",
+      "depth": 0.09,
+      "anim": [
+        {
+          "type": "sway",
+          "root": [
+            800,
+            1000
+          ],
+          "dir": [
+            0,
+            -1
+          ],
+          "length": 220,
+          "amp": 18,
+          "speed": 1.1,
+          "wave": 0.02
+        }
+      ]
+    },
+    {
+      "id": "fireflies",
+      "depth": 0.13,
+      "anim": [
+        {
+          "type": "drift",
+          "amp": 22,
+          "speed": 0.45
+        },
+        {
+          "type": "pulse",
+          "amp": 0.5,
+          "speed": 1.4
+        }
+      ]
+    }
+  ],
+  "rigs": {
+    "eyes": [
+      {
+        "white": "eyeL-white",
+        "iris": "eyeL-iris",
+        "lid": "eyeL-lid",
+        "center": [
+          728,
+          480
+        ],
+        "range": [
+          15.6,
+          9.2
+        ],
+        "lidPivot": [
+          728,
+          458
+        ]
+      },
+      {
+        "white": "eyeR-white",
+        "iris": "eyeR-iris",
+        "lid": "eyeR-lid",
+        "center": [
+          852,
+          480
+        ],
+        "range": [
+          15.6,
+          9.2
+        ],
+        "lidPivot": [
+          852,
+          458
+        ]
+      }
+    ],
+    "blink": {
+      "every": [
+        3.0,
+        7.0
+      ],
+      "duration": 0.15,
+      "double": 0.3
+    },
+    "head": {
+      "pivot": [
+        790,
+        640
+      ],
+      "maxTurn": 0.09,
+      "shift": 18,
+      "layers": {
+        "head": 0.7,
+        "fur": 0.7,
+        "eyeL-white": 1,
+        "eyeL-iris": 1,
+        "eyeL-lid": 1,
+        "eyeR-white": 1,
+        "eyeR-iris": 1,
+        "eyeR-lid": 1,
+        "eye-lines": 1
+      }
+    }
+  },
+  "subject": {
+    "box": [
+      600,
+      260,
+      640,
+      680
+    ],
+    "layers": [
+      "tail",
+      "body",
+      "head",
+      "fur",
+      "eyeL-white",
+      "eyeL-iris",
+      "eyeL-lid",
+      "eyeR-white",
+      "eyeR-iris",
+      "eyeR-lid",
+      "eye-lines"
+    ]
+  },
+  "notes": "Night fox. Fur ruffles, tail sways, eyes follow passers-by."
+}
