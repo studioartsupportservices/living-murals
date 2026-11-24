@@ -74,7 +74,7 @@ async function homeView() {
       </section>
       <footer class="foot">
         <a href="#/studio">Studio tools: QR codes and tracking</a>
-        <span>Prototype build · placeholder artworks until the studio's files are added</span>
+        <span>Prototype build · working titles from the studio archive</span>
       </footer>
     </main>`);
   root.appendChild(v);
